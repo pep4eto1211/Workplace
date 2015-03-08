@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="c6262ddb-2d71-4a44-bcdc-f5426da4f0df" Publisher="CN=Petar" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Workplace</DisplayName>
+    <PublisherDisplayName>Petar Georgiev</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="App1.App">
+      <VisualElements DisplayName="Workplace" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Всичко нужно на един ученик в едно приложение." ForegroundText="light" BackgroundColor="#6a4257" ToastCapable="true">
+        <DefaultTile ShowName="logoOnly" WideLogo="Assets\bigTile.png" ShortName="Workplace" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#6a4257" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

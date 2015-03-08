@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PETER-PC</Machine>
+    <WindowsUser>Petar</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>0A8F97EFDBCCC4E3A76E7BE7A913DFE917AB7BDCF6E52F002B912C7CB13AAD1E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c6262ddb-2d71-4a44-bcdc-f5426da4f0df_1.0.0.0_neutral__zj7myqbf0d06w</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c6262ddb-2d71-4a44-bcdc-f5426da4f0df_zj7myqbf0d06w!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c6262ddb-2d71-4a44-bcdc-f5426da4f0df</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Petar</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\My Projects\Workplace\App1\App1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-07T20:29:48.617</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+      <Modified>2013-03-07T20:18:57.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\App1.pdb">
+      <PackagePath>App1.pdb</PackagePath>
+      <Modified>2013-03-07T20:18:56.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.DocIO.WinRT.dll">
+      <PackagePath>Syncfusion.DocIO.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:42:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.GridCommon.WinRT.dll">
+      <PackagePath>Syncfusion.GridCommon.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:37:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.Linq.WinRT.dll">
+      <PackagePath>Syncfusion.Linq.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:36:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.Pdf.WinRT.dll">
+      <PackagePath>Syncfusion.Pdf.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:46:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfAccordion.WinRT.dll">
+      <PackagePath>Syncfusion.SfAccordion.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:51:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBarcode.WinRT.dll">
+      <PackagePath>Syncfusion.SfBarcode.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:55:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBulletGraph.WinRT.dll">
+      <PackagePath>Syncfusion.SfBulletGraph.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:54:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.WinRT.dll">
+      <PackagePath>Syncfusion.SfBusyIndicator.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:56:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfCarousel.WinRT.dll">
+      <PackagePath>Syncfusion.SfCarousel.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfChart.WinRT.dll">
+      <PackagePath>Syncfusion.SfChart.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:40:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfColorPickers.WinRT.dll">
+      <PackagePath>Syncfusion.SfColorPickers.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:53:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfDiagram.WinRT.dll">
+      <PackagePath>Syncfusion.SfDiagram.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:41:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGauge.WinRT.dll">
+      <PackagePath>Syncfusion.SfGauge.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:43:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGrid.WinRT.dll">
+      <PackagePath>Syncfusion.SfGrid.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:39:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGridBase.WinRT.dll">
+      <PackagePath>Syncfusion.SfGridBase.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:38:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfHubTile.WinRT.dll">
+      <PackagePath>Syncfusion.SfHubTile.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:45:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfInput.WinRT.dll">
+      <PackagePath>Syncfusion.SfInput.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:44:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfMaps.WinRT.dll">
+      <PackagePath>Syncfusion.SfMaps.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.WinRT.dll">
+      <PackagePath>Syncfusion.SfRadialMenu.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:47:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfReportViewer.WinRT.dll">
+      <PackagePath>Syncfusion.SfReportViewer.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfRichTextBoxAdv.WinRT.dll">
+      <PackagePath>Syncfusion.SfRichTextBoxAdv.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:51:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfShared.WinRT.dll">
+      <PackagePath>Syncfusion.SfShared.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:36:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTabControl.WinRT.dll">
+      <PackagePath>Syncfusion.SfTabControl.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:48:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTileView.WinRT.dll">
+      <PackagePath>Syncfusion.SfTileView.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:49:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.WinRT.dll">
+      <PackagePath>Syncfusion.SfTreeNavigator.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:52:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.XlsIO.WinRT.dll">
+      <PackagePath>Syncfusion.XlsIO.WinRT.dll</PackagePath>
+      <Modified>2013-02-18T13:50:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.DocIO.WinRT.xml">
+      <PackagePath>Syncfusion.DocIO.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:42:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.GridCommon.WinRT.xml">
+      <PackagePath>Syncfusion.GridCommon.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:37:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.Linq.WinRT.xml">
+      <PackagePath>Syncfusion.Linq.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:36:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.Pdf.WinRT.xml">
+      <PackagePath>Syncfusion.Pdf.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:46:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfAccordion.WinRT.xml">
+      <PackagePath>Syncfusion.SfAccordion.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBarcode.WinRT.xml">
+      <PackagePath>Syncfusion.SfBarcode.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:55:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBulletGraph.WinRT.xml">
+      <PackagePath>Syncfusion.SfBulletGraph.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:54:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.WinRT.xml">
+      <PackagePath>Syncfusion.SfBusyIndicator.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:56:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfCarousel.WinRT.xml">
+      <PackagePath>Syncfusion.SfCarousel.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:41:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfColorPickers.WinRT.xml">
+      <PackagePath>Syncfusion.SfColorPickers.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfDiagram.WinRT.xml">
+      <PackagePath>Syncfusion.SfDiagram.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:41:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGauge.WinRT.xml">
+      <PackagePath>Syncfusion.SfGauge.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:43:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGrid.WinRT.xml">
+      <PackagePath>Syncfusion.SfGrid.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:39:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfGridBase.WinRT.xml">
+      <PackagePath>Syncfusion.SfGridBase.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:38:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfHubTile.WinRT.xml">
+      <PackagePath>Syncfusion.SfHubTile.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:45:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfInput.WinRT.xml">
+      <PackagePath>Syncfusion.SfInput.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:44:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfMaps.WinRT.xml">
+      <PackagePath>Syncfusion.SfMaps.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:45:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.WinRT.xml">
+      <PackagePath>Syncfusion.SfRadialMenu.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:47:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfReportViewer.WinRT.xml">
+      <PackagePath>Syncfusion.SfReportViewer.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:55:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfRichTextBoxAdv.WinRT.xml">
+      <PackagePath>Syncfusion.SfRichTextBoxAdv.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:50:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfShared.WinRT.xml">
+      <PackagePath>Syncfusion.SfShared.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:36:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTabControl.WinRT.xml">
+      <PackagePath>Syncfusion.SfTabControl.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:48:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTileView.WinRT.xml">
+      <PackagePath>Syncfusion.SfTileView.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:49:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.WinRT.xml">
+      <PackagePath>Syncfusion.SfTreeNavigator.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:52:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\References\CommonConfiguration\neutral\Syncfusion.XlsIO.WinRT.xml">
+      <PackagePath>Syncfusion.XlsIO.WinRT.xml</PackagePath>
+      <Modified>2013-02-18T13:49:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WinRT\ChartArea\Themes\ChartArea.xaml">
+      <PackagePath>Syncfusion.SfChart.WinRT\ChartArea\Themes\ChartArea.xaml</PackagePath>
+      <Modified>2013-02-05T14:04:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WinRT\ChartAxis\Themes\ChartAxis.xaml">
+      <PackagePath>Syncfusion.SfChart.WinRT\ChartAxis\Themes\ChartAxis.xaml</PackagePath>
+      <Modified>2013-02-05T14:04:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WinRT\ChartSeries\Themes\ChartSeries.xaml">
+      <PackagePath>Syncfusion.SfChart.WinRT\ChartSeries\Themes\ChartSeries.xaml</PackagePath>
+      <Modified>2013-02-13T07:27:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.WinRT\CircularGauge\Themes\CircularGauge.xaml">
+      <PackagePath>Syncfusion.SfGauge.WinRT\CircularGauge\Themes\CircularGauge.xaml</PackagePath>
+      <Modified>2013-02-06T14:56:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.WinRT\Themes\ColorPalette.xaml">
+      <PackagePath>Syncfusion.SfMaps.WinRT\Themes\ColorPalette.xaml</PackagePath>
+      <Modified>2013-02-05T14:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfReportViewer.WinRT\Dialogs\CredentialsDialog.xaml">
+      <PackagePath>Syncfusion.SfReportViewer.WinRT\Dialogs\CredentialsDialog.xaml</PackagePath>
+      <Modified>2013-02-05T14:06:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.WinRT\DigitalGauge\Themes\DigitalGauge.xaml">
+      <PackagePath>Syncfusion.SfGauge.WinRT\DigitalGauge\Themes\DigitalGauge.xaml</PackagePath>
+      <Modified>2013-02-05T13:42:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WinRT\Themes\Generic.Common.xaml">
+      <PackagePath>Syncfusion.SfChart.WinRT\Themes\Generic.Common.xaml</PackagePath>
+      <Modified>2013-02-05T14:04:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WinRT\Themes\Generic.Legend.xaml">
+      <PackagePath>Syncfusion.SfChart.WinRT\Themes\Generic.Legend.xaml</PackagePath>
+      <Modified>2013-02-13T07:27:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WinRT\Themes\Generic.Symbol.xaml">
+      <PackagePath>Syncfusion.SfChart.WinRT\Themes\Generic.Symbol.xaml</PackagePath>
+      <Modified>2013-02-05T14:04:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.GridCommon.WinRT\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.GridCommon.WinRT\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-05T14:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfAccordion.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfAccordion.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-09T08:54:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBarcode.WinRT\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfBarcode.WinRT\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-07T16:37:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBulletGraph.WinRT\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfBulletGraph.WinRT\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-07T16:37:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfBusyIndicator.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfBusyIndicator.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-14T02:09:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfCarousel.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfCarousel.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-05T14:05:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfChart.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfChart.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-05T14:04:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfColorPickers.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfColorPickers.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-12T09:33:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfDiagram.WinRT\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfDiagram.WinRT\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-05T14:06:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.WinRT\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfGauge.WinRT\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-05T13:42:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WinRT\Control\GroupDropArea\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfGrid.WinRT\Control\GroupDropArea\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-13T07:27:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WinRT\Control\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfGrid.WinRT\Control\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-11T15:35:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WinRT\GridCommon\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfGrid.WinRT\GridCommon\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-05T13:42:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGrid.WinRT\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfGrid.WinRT\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-08T13:21:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGridBase.WinRT\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfGridBase.WinRT\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-05T14:05:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfHubTile.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfHubTile.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-08T13:23:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfInput.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfInput.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-13T12:17:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.WinRT\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfMaps.WinRT\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-13T15:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRadialMenu.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfRadialMenu.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-12T16:25:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfReportViewer.WinRT\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfReportViewer.WinRT\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-14T09:02:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfRichTextBoxAdv.WinRT\Themes\Generic.xaml">
+      <PackagePath>Syncfusion.SfRichTextBoxAdv.WinRT\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-02-12T15:07:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfShared.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfShared.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-05T14:07:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTabControl.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfTabControl.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-09T08:54:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTileView.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfTileView.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-05T13:42:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfTreeNavigator.WinRT\Themes\generic.xaml">
+      <PackagePath>Syncfusion.SfTreeNavigator.WinRT\Themes\generic.xaml</PackagePath>
+      <Modified>2013-02-11T15:35:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfGauge.WinRT\LinearGauge\Themes\LinearGauge.xaml">
+      <PackagePath>Syncfusion.SfGauge.WinRT\LinearGauge\Themes\LinearGauge.xaml</PackagePath>
+      <Modified>2013-02-05T13:42:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfDiagram.WinRT\Themes\NodeShapes.xaml">
+      <PackagePath>Syncfusion.SfDiagram.WinRT\Themes\NodeShapes.xaml</PackagePath>
+      <Modified>2013-02-05T14:06:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Program Files\Syncfusion\Essential Studio\11.1.0.21\SDK\Redist\CommonConfiguration\neutral\Syncfusion.SfMaps.WinRT\Themes\Templates.xaml">
+      <PackagePath>Syncfusion.SfMaps.WinRT\Themes\Templates.xaml</PackagePath>
+      <Modified>2013-02-05T14:06:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\add.png">
+      <PackagePath>Assets\add.png</PackagePath>
+      <Modified>2010-03-29T09:56:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\allHomeworkTile.png">
+      <PackagePath>Assets\allHomeworkTile.png</PackagePath>
+      <Modified>2013-02-27T23:12:38.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\badgeLogo.png">
+      <PackagePath>Assets\badgeLogo.png</PackagePath>
+      <Modified>2013-03-07T19:31:36.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\bigTile.png">
+      <PackagePath>Assets\bigTile.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-31T20:39:09.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\booksTile.png">
+      <PackagePath>Assets\booksTile.png</PackagePath>
+      <Modified>2013-01-31T18:36:11.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\cancel.png">
+      <PackagePath>Assets\cancel.png</PackagePath>
+      <Modified>2010-03-29T09:56:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\check.png">
+      <PackagePath>Assets\check.png</PackagePath>
+      <Modified>2010-03-29T09:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\edit.png">
+      <PackagePath>Assets\edit.png</PackagePath>
+      <Modified>2010-03-29T09:56:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\finishTile.png">
+      <PackagePath>Assets\finishTile.png</PackagePath>
+      <Modified>2013-03-07T01:22:17.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\gradeChangeTile.png">
+      <PackagePath>Assets\gradeChangeTile.png</PackagePath>
+      <Modified>2013-03-07T01:41:33.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\HomeworkTile.png">
+      <PackagePath>Assets\HomeworkTile.png</PackagePath>
+      <Modified>2013-02-04T21:45:30.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-31T20:28:04.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\next.png">
+      <PackagePath>Assets\next.png</PackagePath>
+      <Modified>2010-03-29T09:55:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\notebookTile.png">
+      <PackagePath>Assets\notebookTile.png</PackagePath>
+      <Modified>2013-01-31T20:05:31.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\options.png">
+      <PackagePath>Assets\options.png</PackagePath>
+      <Modified>2010-03-28T22:30:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\overflowdots.png">
+      <PackagePath>Assets\overflowdots.png</PackagePath>
+      <Modified>2013-03-06T22:22:31.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\parent.png">
+      <PackagePath>Assets\parent.png</PackagePath>
+      <Modified>2013-03-06T22:16:30.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\save.png">
+      <PackagePath>Assets\save.png</PackagePath>
+      <Modified>2010-03-29T09:55:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\settings.png">
+      <PackagePath>Assets\settings.png</PackagePath>
+      <Modified>2013-03-06T20:33:50.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\shTile.png">
+      <PackagePath>Assets\shTile.png</PackagePath>
+      <Modified>2013-02-04T22:47:50.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\singleBookTile.png">
+      <PackagePath>Assets\singleBookTile.png</PackagePath>
+      <Modified>2013-02-27T13:42:36.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\singleNotebookTile.png">
+      <PackagePath>Assets\singleNotebookTile.png</PackagePath>
+      <Modified>2013-02-27T13:09:26.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-31T20:34:31.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-31T20:38:17.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\subjectsTile.png">
+      <PackagePath>Assets\subjectsTile.png</PackagePath>
+      <Modified>2013-02-04T22:54:43.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\todayTile.png">
+      <PackagePath>Assets\todayTile.png</PackagePath>
+      <Modified>2013-02-18T18:33:29.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\toDoTile.png">
+      <PackagePath>Assets\toDoTile.png</PackagePath>
+      <Modified>2013-02-27T23:09:59.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\tomorrowTile.png">
+      <PackagePath>Assets\tomorrowTile.png</PackagePath>
+      <Modified>2013-02-18T18:47:55.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Assets\weekTile.png">
+      <PackagePath>Assets\weekTile.png</PackagePath>
+      <Modified>2013-02-18T19:05:39.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-01-23T18:30:51.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-03-03T20:02:28.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\addNewBookFilled.xaml">
+      <PackagePath>addNewBookFilled.xaml</PackagePath>
+      <Modified>2013-02-15T20:56:18.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\allHomeworks.xaml">
+      <PackagePath>allHomeworks.xaml</PackagePath>
+      <Modified>2013-02-27T23:32:07.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\bookReader.xaml">
+      <PackagePath>bookReader.xaml</PackagePath>
+      <Modified>2013-02-25T22:29:13.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\books.xaml">
+      <PackagePath>books.xaml</PackagePath>
+      <Modified>2013-03-06T22:27:07.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-27T00:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\gradeManagement.xaml">
+      <PackagePath>gradeManagement.xaml</PackagePath>
+      <Modified>2013-03-07T19:09:38.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\homework.xaml">
+      <PackagePath>homework.xaml</PackagePath>
+      <Modified>2013-02-27T23:36:46.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\Login.xaml">
+      <PackagePath>Login.xaml</PackagePath>
+      <Modified>2013-02-26T22:22:18.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-03-06T20:35:35.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\notebook.xaml">
+      <PackagePath>notebook.xaml</PackagePath>
+      <Modified>2013-02-27T00:24:33.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\profileLockScreen.xaml">
+      <PackagePath>profileLockScreen.xaml</PackagePath>
+      <Modified>2013-03-06T19:36:14.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\profilePage.xaml">
+      <PackagePath>profilePage.xaml</PackagePath>
+      <Modified>2013-02-16T17:35:15.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\settings.xaml">
+      <PackagePath>settings.xaml</PackagePath>
+      <Modified>2013-03-07T18:00:24.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\settingsSnapped.xaml">
+      <PackagePath>settingsSnapped.xaml</PackagePath>
+      <Modified>2013-02-15T20:46:30.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\sh.xaml">
+      <PackagePath>sh.xaml</PackagePath>
+      <Modified>2013-03-06T22:07:21.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\singleHomework.xaml">
+      <PackagePath>singleHomework.xaml</PackagePath>
+      <Modified>2013-03-06T22:14:26.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\singleNotebook.xaml">
+      <PackagePath>singleNotebook.xaml</PackagePath>
+      <Modified>2013-03-06T22:13:33.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\singleSh.xaml">
+      <PackagePath>singleSh.xaml</PackagePath>
+      <Modified>2013-03-06T22:59:10.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\snappedViewStart.xaml">
+      <PackagePath>snappedViewStart.xaml</PackagePath>
+      <Modified>2013-02-15T16:33:57.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\subjects.xaml">
+      <PackagePath>subjects.xaml</PackagePath>
+      <Modified>2013-03-04T22:27:50.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\todaySh.xaml">
+      <PackagePath>todaySh.xaml</PackagePath>
+      <Modified>2013-03-06T19:22:05.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\toDoHomeworks.xaml">
+      <PackagePath>toDoHomeworks.xaml</PackagePath>
+      <Modified>2013-02-27T23:52:24.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\tomorrowSh.xaml">
+      <PackagePath>tomorrowSh.xaml</PackagePath>
+      <Modified>2013-03-06T20:16:11.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\weeklySh.xaml">
+      <PackagePath>weeklySh.xaml</PackagePath>
+      <Modified>2013-03-06T22:48:47.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\My Projects\Workplace\App1\App1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-03-07T20:29:48.318</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
