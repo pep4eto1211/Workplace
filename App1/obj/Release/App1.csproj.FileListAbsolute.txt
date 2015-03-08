@@ -1,0 +1,435 @@
+D:\My Projects\Workplace\App1\App1\bin\Release\App1.exe
+D:\My Projects\Workplace\App1\App1\bin\Release\App1.pdb
+D:\My Projects\Workplace\App1\App1\bin\Release\resources.pri
+D:\My Projects\Workplace\App1\App1\bin\Release\AppxManifest.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\App1.build.appxrecipe
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.DocIO.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.DocIO.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.GridCommon.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.GridCommon.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.Linq.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.Linq.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.Pdf.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.Pdf.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfAccordion.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfAccordion.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfBarcode.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfBarcode.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfBulletGraph.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfBulletGraph.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfBusyIndicator.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfBusyIndicator.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfCarousel.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfCarousel.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfChart.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfColorPickers.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfColorPickers.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfDiagram.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfDiagram.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfGauge.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfGauge.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfGrid.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfGrid.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfGridBase.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfGridBase.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfHubTile.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfHubTile.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfInput.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfInput.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfMaps.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfMaps.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfRadialMenu.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfRadialMenu.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfReportViewer.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfReportViewer.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfRichTextBoxAdv.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfRichTextBoxAdv.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfShared.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfShared.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfTabControl.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfTabControl.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfTileView.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfTileView.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfTreeNavigator.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.SfTreeNavigator.WinRT.xml
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.XlsIO.WinRT.dll
+D:\My Projects\Workplace\App1\App1\bin\Release\Syncfusion.XlsIO.WinRT.xml
+D:\My Projects\Workplace\App1\App1\obj\Release\App.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\App.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\addNewBookFilled.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\addNewBookFilled.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\allHomeworks.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\allHomeworks.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\bookReader.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\bookReader.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\books.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\books.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\Common\StandardStyles.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\Common\StandardStyles.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\gradeManagement.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\gradeManagement.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\homework.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\homework.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\Login.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\Login.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\MainPage.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\MainPage.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\notebook.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\notebook.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\profileLockScreen.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\profileLockScreen.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\profilePage.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\profilePage.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\settings.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\settings.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\settingsSnapped.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\settingsSnapped.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\sh.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\sh.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\singleHomework.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\singleHomework.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\singleNotebook.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\singleNotebook.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\singleSh.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\singleSh.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\snappedViewStart.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\snappedViewStart.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\subjects.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\subjects.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\todaySh.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\todaySh.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\toDoHomeworks.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\toDoHomeworks.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\tomorrowSh.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\tomorrowSh.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\weeklySh.g.i.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\weeklySh.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\XamlTypeInfo.g.cs
+D:\My Projects\Workplace\App1\App1\obj\Release\App.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\addNewBookFilled.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\allHomeworks.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\bookReader.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\books.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\Common\StandardStyles.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\gradeManagement.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\homework.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\Login.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\MainPage.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\notebook.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\profileLockScreen.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\profilePage.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\settings.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\settingsSnapped.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\sh.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\singleHomework.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\singleNotebook.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\singleSh.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\snappedViewStart.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\subjects.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\todaySh.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\toDoHomeworks.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\tomorrowSh.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\weeklySh.xaml
+D:\My Projects\Workplace\App1\App1\obj\Release\App1.exe
+D:\My Projects\Workplace\App1\App1\obj\Release\App1.pdb
+D:\My Projects\Workplace\App1\App1\obj\Release\App1.csproj.GenerateResource.Cache
+D:\My Projects\Workplace\App1\App1\obj\Release\priconfig.xml
+D:\My Projects\Workplace\App1\App1\obj\Release\layout.resfiles
+D:\My Projects\Workplace\App1\App1\obj\Release\resources.resfiles
+D:\My Projects\Workplace\App1\App1\obj\Release\pri.resfiles
+D:\My Projects\Workplace\App1\App1\obj\Release\LanguageQualifiers.txt
+D:\My Projects\Workplace\App1\App1\obj\Release\ProjectArchitectures.txt
+D:\My Projects\Workplace\App1\App1\obj\Release\priconfig.xml.intermediate
+D:\My Projects\Workplace\App1\App1\obj\Release\layout.resfiles.intermediate
+D:\My Projects\Workplace\App1\App1\obj\Release\resources.resfiles.intermediate
+D:\My Projects\Workplace\App1\App1\obj\Release\pri.resfiles.intermediate
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\App1.exe
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\App1.pdb
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.DocIO.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.DocIO.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.GridCommon.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.GridCommon.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.Linq.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.Linq.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.Pdf.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.Pdf.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfAccordion.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfAccordion.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBarcode.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBarcode.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBulletGraph.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBulletGraph.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBusyIndicator.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBusyIndicator.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfCarousel.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfCarousel.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfChart.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfColorPickers.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfColorPickers.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfDiagram.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfDiagram.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGauge.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGauge.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGrid.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGrid.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGridBase.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGridBase.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfHubTile.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfHubTile.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfInput.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfInput.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfMaps.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfMaps.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfRadialMenu.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfRadialMenu.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfReportViewer.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfReportViewer.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfRichTextBoxAdv.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfRichTextBoxAdv.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfShared.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfShared.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTabControl.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTabControl.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTileView.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTileView.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTreeNavigator.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTreeNavigator.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.XlsIO.WinRT.dll
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.XlsIO.WinRT.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\addNewBookFilled.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\addNewBookFilled.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\allHomeworks.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\allHomeworks.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\bookReader.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\bookReader.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\books.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\books.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Common\StandardStyles.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Common\StandardStyles.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\gradeManagement.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\gradeManagement.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\homework.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\homework.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Login.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Login.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\MainPage.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\MainPage.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\notebook.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\notebook.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profileLockScreen.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profileLockScreen.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profilePage.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profilePage.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settings.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settings.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settingsSnapped.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settingsSnapped.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\sh.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\sh.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleHomework.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleHomework.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleNotebook.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleNotebook.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleSh.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleSh.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\snappedViewStart.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\snappedViewStart.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\subjects.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\subjects.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\todaySh.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\todaySh.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\toDoHomeworks.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\toDoHomeworks.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\tomorrowSh.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\tomorrowSh.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\weeklySh.g.i.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\weeklySh.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\XamlTypeInfo.g.cs
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\addNewBookFilled.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\allHomeworks.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\bookReader.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\books.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Common\StandardStyles.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\gradeManagement.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\homework.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Login.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\MainPage.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\notebook.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profileLockScreen.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profilePage.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settings.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settingsSnapped.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\sh.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleHomework.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleNotebook.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleSh.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\snappedViewStart.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\subjects.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\todaySh.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\toDoHomeworks.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\tomorrowSh.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\weeklySh.xaml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App1.exe
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App1.pdb
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\resources.pri
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\AppxManifest.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\bin\Release\App1.build.appxrecipe
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App1.csproj.GenerateResource.Cache
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\priconfig.xml.intermediate
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\layout.resfiles.intermediate
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\resources.resfiles.intermediate
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\pri.resfiles.intermediate
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\priconfig.xml
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\layout.resfiles
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\resources.resfiles
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\pri.resfiles
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\LanguageQualifiers.txt
+D:\My Projects\Workplace\Workplace- Sorce code\App1\obj\Release\ProjectArchitectures.txt
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\App1.exe
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\App1.pdb
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\resources.pri
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\AppxManifest.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\App1.build.appxrecipe
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.DocIO.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.DocIO.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.GridCommon.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.GridCommon.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.Linq.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.Linq.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.Pdf.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.Pdf.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfAccordion.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfAccordion.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBarcode.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBarcode.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBulletGraph.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBulletGraph.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBusyIndicator.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfBusyIndicator.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfCarousel.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfCarousel.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfChart.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfColorPickers.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfColorPickers.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfDiagram.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfDiagram.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGauge.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGauge.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGrid.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGrid.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGridBase.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfGridBase.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfHubTile.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfHubTile.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfInput.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfInput.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfMaps.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfMaps.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfRadialMenu.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfRadialMenu.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfReportViewer.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfReportViewer.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfRichTextBoxAdv.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfRichTextBoxAdv.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfShared.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfShared.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTabControl.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTabControl.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTileView.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTileView.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTreeNavigator.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.SfTreeNavigator.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.XlsIO.WinRT.dll
+D:\Projects\Workplace\Workplace- Sorce code\App1\bin\Release\Syncfusion.XlsIO.WinRT.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\addNewBookFilled.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\addNewBookFilled.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\allHomeworks.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\allHomeworks.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\bookReader.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\bookReader.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\books.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\books.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Common\StandardStyles.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Common\StandardStyles.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\gradeManagement.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\gradeManagement.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\homework.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\homework.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Login.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Login.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\MainPage.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\MainPage.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\notebook.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\notebook.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profileLockScreen.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profileLockScreen.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profilePage.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profilePage.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settings.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settings.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settingsSnapped.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settingsSnapped.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\sh.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\sh.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleHomework.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleHomework.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleNotebook.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleNotebook.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleSh.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleSh.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\snappedViewStart.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\snappedViewStart.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\subjects.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\subjects.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\todaySh.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\todaySh.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\toDoHomeworks.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\toDoHomeworks.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\tomorrowSh.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\tomorrowSh.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\weeklySh.g.i.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\weeklySh.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\XamlTypeInfo.g.cs
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\addNewBookFilled.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\allHomeworks.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\bookReader.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\books.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Common\StandardStyles.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\gradeManagement.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\homework.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\Login.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\MainPage.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\notebook.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profileLockScreen.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\profilePage.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settings.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\settingsSnapped.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\sh.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleHomework.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleNotebook.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\singleSh.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\snappedViewStart.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\subjects.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\todaySh.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\toDoHomeworks.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\tomorrowSh.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\weeklySh.xaml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App1.exe
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App1.pdb
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\App1.csproj.GenerateResource.Cache
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\priconfig.xml.intermediate
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\layout.resfiles.intermediate
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\resources.resfiles.intermediate
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\pri.resfiles.intermediate
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\priconfig.xml
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\layout.resfiles
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\resources.resfiles
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\pri.resfiles
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\LanguageQualifiers.txt
+D:\Projects\Workplace\Workplace- Sorce code\App1\obj\Release\ProjectArchitectures.txt

@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfTabControl.WinRT</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.TabStripPlacement">
+            <summary>
+            Defines the different placement options that a <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>  can arrange the
+            tab strip.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.TabStripPlacement.Left">
+            <summary>
+            A child element that is positioned on the left side of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.TabStripPlacement.Top">
+            <summary>
+            A child element that is positioned on the top of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.TabStripPlacement.Right">
+            <summary>
+            A child element that is positioned on the right side of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Navigation.TabStripPlacement.Bottom">
+            <summary>
+            A child element that is positioned on the bottom of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl">
+            <summary>
+            Represents a control that contains multiple items that share the same space for
+            content on the screen.
+            </summary>
+            <remarks>
+            TabControl is a <see cref="N:Syncfusion.UI.Xaml.Primitives.Selector"/> which
+            means it can contain a collection of objects of any type (such as string, image,
+            or panel) and it is selectable.
+            </remarks>
+            <seealso cref="N:Syncfusion.UI.Xaml.Controls">Syncfusion.UI.Xaml.Controls
+            Namespace</seealso>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/> class.
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>
+            <seealso cref="N:Syncfusion.UI.Xaml.Controls">Syncfusion.UI.Xaml.Controls
+            Namespace</seealso>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl.TabStripPlacement">
+            <summary>
+            Gets or sets the placement option to place the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>.
+            </summary>
+            <remarks>
+            Tab strip can be placed around the control using <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.TabStripPlacement"/> property. It
+            has the following options. Default option is Top.
+            </remarks>
+            <value>
+            <para>Default value is <see
+            cref="F:Syncfusion.UI.Xaml.Controls.Navigation.TabStripPlacement.Top"/>.</para>
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl.ContentTemplate">
+             <summary>
+             Gets or sets the data used to display the content of the selected <see
+             cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem"/>.
+             </summary>
+             <value>
+            The Default value is null.
+             </value>
+             <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>
+             <seealso cref="N:Syncfusion.UI.Xaml.Controls">Syncfusion.UI.Xaml.Controls
+             Namespace</seealso>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl.ContentTransitions">
+            <summary>
+            Gets or sets the collection of transitions that apply to the content area of
+            <see cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>.
+            </summary>
+            <value>
+            <see cref="N:Windows.UI.Xaml.Media.Animation.">Transition</see>.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>
+            <seealso cref="N:Syncfusion.UI.Xaml.Controls">Syncfusion.UI.Xaml.Controls
+            Namespace</seealso>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem">
+            <summary>
+            Represents a selectable item inside <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>.
+            </summary>
+            <remarks>
+            <b>SfTabItem </b>is a <see
+            cref="N:Windows.UI.Xaml.Controls.ContentControl.">ContentControl</see>.
+            </remarks>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>
+            <seealso cref="N:Syncfusion.UI.Xaml.Controls">Syncfusion.UI.Xaml.Controls
+            Namespace</seealso>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem"/> class.
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>
+            <seealso cref="N:Syncfusion.UI.Xaml.Controls">Syncfusion.UI.Xaml.Controls
+            Namespace</seealso>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem.Header">
+            <summary>
+            Gets or sets the data used as header for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem"/>.
+            </summary>
+            <value>
+            The default is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>
+            <seealso cref="N:Syncfusion.UI.Xaml.Controls">Syncfusion.UI.Xaml.Controls
+            Namespace</seealso>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem.IsSelected">
+            <summary>
+            Gets or sets a value indicating whether this instance is selected.
+            </summary>
+            <value>
+            <c>true</c> if this instance is selected; otherwise, <c>false</c>.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>
+            <seealso cref="N:Syncfusion.UI.Xaml.Controls">Syncfusion.UI.Xaml.Controls
+            Namespace</seealso>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem.SelectedBackground">
+            <summary>
+            Gets or sets the selected background for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem"/>.
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>
+            <seealso cref="N:Syncfusion.UI.Xaml.Controls">Syncfusion.UI.Xaml.Controls
+            Namespace</seealso>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem.SelectedForeground">
+            <summary>
+            Gets or sets the selected foreground for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem"/>.
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabItem"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.SfTabControl"/>
+            <seealso cref="N:Syncfusion.UI.Xaml.Controls">Syncfusion.UI.Xaml.Controls
+            Namespace</seealso>
+        </member>
+    </members>
+</doc>

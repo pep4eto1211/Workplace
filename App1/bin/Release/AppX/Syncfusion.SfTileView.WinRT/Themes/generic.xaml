@@ -1,0 +1,118 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  xmlns:converter="using:Syncfusion.UI.Xaml.Converters"
+    xmlns:local="using:Syncfusion.UI.Xaml.Controls.Layout">
+
+    <converter:NullToVisibilityConverter x:Key="NullConverter"/>
+
+    <Style TargetType="local:TileItemsControl">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:TileItemsControl">
+                    <Grid Background="{TemplateBinding Background}">
+                        <ScrollViewer x:Name="PART_ScrollViewer" ZoomMode="Disabled" VerticalScrollBarVisibility="Auto"
+                                      HorizontalScrollBarVisibility="Disabled">
+                            <ItemsPresenter />
+                        </ScrollViewer>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="local:SfTileView">
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="ItemWidth" Value="170"/>
+        <Setter Property="ItemHeight" Value="100"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="ItemContainerTransitions">
+            <Setter.Value>
+                <TransitionCollection>
+                    <ReorderThemeTransition />
+                </TransitionCollection>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="ItemsPanel">
+            <Setter.Value>
+                <ItemsPanelTemplate>
+                    <local:TileViewPanel/>
+                </ItemsPanelTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:SfTileView">
+                    <Grid>
+                        <Border Background="{TemplateBinding Background}">
+                            <Grid x:Name="PART_Root">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid ManipulationMode="All" x:Name='PART_Grid' Background="Transparent"
+                                       Grid.RowSpan="2">
+                                    <ContentControl x:Name="PART_Content"
+                                                Content="{Binding Path=MaximizedItem.MaximizedContent, 
+                                                RelativeSource={RelativeSource TemplatedParent}}"
+                                                Visibility="{Binding MaximizedItem, 
+                                                Converter={StaticResource NullConverter}, 
+                                                RelativeSource={RelativeSource TemplatedParent}}"
+                                                ContentTemplate="{TemplateBinding MaximizedItemTemplate}"
+                                                Style="{TemplateBinding MaximizedItemContainerStyle}"
+                                                Margin="{TemplateBinding Padding}"
+                                                HorizontalContentAlignment="Stretch"
+                                                VerticalContentAlignment="Stretch"
+                                                ContentTransitions="{TemplateBinding MaximizedContentTransitions}"/>
+                                    <Button HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10" Visibility="Collapsed" x:Name="PART_MinimizeButton">
+                                        <Grid>
+                                            <Path Data="M0,0L53.333,0 53.333,8.888 0,8.888z" Stretch="Uniform" Fill="#FF191919" Width="16" Height="16" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5"/>
+                                        </Grid>
+                                    </Button>
+                                </Grid>
+
+                                <local:TileItemsControl ItemsSource="{Binding MinimizedItems, RelativeSource={RelativeSource TemplatedParent}}"
+                                                        Orientation="{TemplateBinding Orientation}"
+                                                        ItemWidth="{TemplateBinding ItemWidth}"
+                                                        ItemHeight="{TemplateBinding ItemHeight}"
+                                                        ItemContainerStyle="{TemplateBinding ItemContainerStyle}"
+                                                        ItemTemplate="{TemplateBinding ItemTemplate}"
+                                                        ItemsPanel="{TemplateBinding ItemsPanel}"
+                                                        Grid.Column="1" Grid.RowSpan="2" x:Name="PART_Items"
+                                                        Margin="{TemplateBinding Padding}"
+                                                        ItemContainerTransitions="{TemplateBinding ItemContainerTransitions}"/>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="local:SfTileViewItem">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:SfTileViewItem">
+                    <Grid>
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter Content="{TemplateBinding Content}" 
+                                          ContentTemplate="{TemplateBinding ContentTemplate}"
+                                          HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                              />
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+</ResourceDictionary>
+

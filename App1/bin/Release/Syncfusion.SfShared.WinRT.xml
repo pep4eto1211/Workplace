@@ -1,0 +1,711 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfShared.WinRT</name>
+    </assembly>
+    <members>
+        <member name="E:Syncfusion.UI.Xaml.Controls.SfUpDown.UpButtonClick">
+            <summary>
+            Event that is raised when UpButton is clicked.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.SfUpDown.DownButtonClick">
+            <summary>
+            Event that is raised when DownButton is clicked.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.SpinButtonsAlignment.Left">
+            <summary>
+            Align SpinButtons to Left
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.SpinButtonsAlignment.Right">
+            <summary>
+            Align SpinButtons to Right
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.SpinButtonsAlignment.Both">
+            <summary>
+            Align SpinButtons at both the end
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Converters.BooleanToVisibilityConverter">
+            <summary>
+            Represents the converter that converts Boolean values to and
+            from visibility enumeration values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Primitives.Clipper">
+            <summary>
+            Clips a ratio of its content.
+            </summary>
+            <QualityBand>Preview</QualityBand>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Primitives.Clipper.RatioVisibleProperty">
+            <summary>
+            Identifies the RatioVisible dependency property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.Clipper.OnRatioVisibleChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            RatioVisibleProperty property changed handler.
+            </summary>
+            <param name="d">PartialView that changed its RatioVisible.</param>
+            <param name="e">Event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.Clipper.OnRatioVisibleChanged(System.Double,System.Double)">
+            <summary>
+            RatioVisibleProperty property changed handler.
+            </summary>
+            <param name="oldValue">Old value.</param>
+            <param name="newValue">New value.</param>        
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.Clipper.#ctor">
+            <summary>
+            Initializes a new instance of the Clipper class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.Clipper.ClipContent">
+            <summary>
+            Updates the clip geometry.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.Clipper.RatioVisible">
+            <summary>
+            Gets or sets the percentage of the item visible.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Primitives.ILoopingSelectorDataSource">
+            <summary>
+             Defines how the LoopingSelector communicates with data source.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.ILoopingSelectorDataSource.GetNext(System.Object)">
+            <summary>
+             Get the next datum, relative to an existing datum.
+            </summary>
+            <param name="relativeTo"></param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.ILoopingSelectorDataSource.GetPrevious(System.Object)">
+            <summary>
+             Get the previous datum, relative to an existing datum.
+            </summary>
+            <param name="relativeTo"></param>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.ILoopingSelectorDataSource.SelectedItem">
+            <summary>
+            Gets or sets the current selected item.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Primitives.ILoopingSelectorDataSource.SelectionChanged">
+            <summary>
+            Occurs when the selected item changed.
+            </summary>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Primitives.ILoopingSelectorDataSource.SelectedItem"/>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl">
+            <summary>
+             Represents a control that contains multiple items and has a header.
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl"/>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderStyle">
+            <summary>
+            Gets or sets  the style that appearance of the <see
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.Header"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderTemplate"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderTemplateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.Header">
+            <summary>
+            Gets or sets the data used for the header of each control.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderStyle"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderTemplate"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderTemplateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderTemplate">
+            <summary>
+            Gets or sets the <see cref="N:Windows.UI.Xaml.DataTemplate">DataTemplate</see> used
+            to display the content of the control&apos;s <see
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.Header"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderStyle"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderTemplateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderTemplateSelector">
+            <summary>
+            Gets or sets a <see
+            cref="N:Windows.UI.Xaml.Controls.DataTemplateSelector">DataTemplateSelector</see> that provides
+            custom logic for choosing the template used to display the <see
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.Header"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderStyle"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl.HeaderTemplate"/>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper">
+            <summary>
+            An ElementWrapper class that can serve as the basis for Atom Date Construct
+            based extensions.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper.#ctor(System.DateTime)">
+            <summary>
+            Initializes a new instance of the DateTimeWrapper class.
+            </summary>
+            <param name="dateTime">DateTime to wrap.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper.CurrentCultureUsesTwentyFourHourClock">
+            <summary>
+            Returns a value indicating whether the current culture uses a 24-hour clock.
+            </summary>
+            <returns>True if it uses a 24-hour clock; false otherwise.</returns>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper.DateTime">
+            <summary>
+            Gets the DateTime being wrapped.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper.YearNumber">
+            <summary>
+            Gets the 4-digit year as a string.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper.MonthNumber">
+            <summary>
+            Gets the 2-digit month as a string.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper.MonthName">
+            <summary>
+            Gets the month name as a string.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper.DayNumber">
+            <summary>
+            Gets the 2-digit day as a string.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper.DayName">
+            <summary>
+            Gets the day name as a string.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper.HourNumber">
+            <summary>
+            Gets the hour as a string.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper.MinuteNumber">
+            <summary>
+            Gets the 2-digit minute as a string.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.DateTimeWrapper.AmPmString">
+            <summary>
+            Gets the AM/PM designator as a string.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.State">
+            <summary>
+            Defines the different states options that a <see
+            cref="T:Syncfusion.UI.Xaml.Controls.LoopingSelector"/> can be animated.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.SnappedEventArgs">
+            <summary>
+             Provides information about the DateTime changes of all kinds.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.LoopingSelector">
+            <summary>
+             LoopingSelector is a <see cref="N:Windows.UI.Xaml.Controls.Control"/>, that
+            allow the user to select the items based the the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.State"/>. It is touch friendly and resembles
+            the Windows phone looping selector.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.LoopingSelector.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.LoopingSelector"/> class.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.LoopingSelector.IsExpandedProperty">
+            <summary>
+            The IsExpanded DependencyProperty.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.DataSource">
+            <summary>
+            Gets or sets the data source that the control is displaying data for.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemTemplate">
+            <summary>
+            Gets or sets the <see cref="N:Windows.UI.Xaml.Controls.DataTemplate"/> used to
+            display each item.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemHeight"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemMargin"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemWidth"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemHeight">
+            <summary>
+            Gets or sets the height of the items.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemMargin"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemTemplate"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemWidth"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemWidth">
+            <summary>
+            Gets or sets the width of the items.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemHeight"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemMargin"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemTemplate"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemMargin">
+            <summary>
+            Gets or sets margin around the items, to be a part of the touchable area.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemHeight"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemWidth"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemTemplate"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.ItemContainerStyle">
+            <summary>
+            Gets or sets the style that is applied to the container element generated for
+            each item.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.AccentBrush">
+            <summary>
+            Gets or sets the background for the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.LoopingSelector"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.IsExpanded">
+            <summary>
+            Gets or sets a value indicating whether this instance the looping selector is
+            expanded .
+            </summary>
+            <value>
+            <see langword="true"/> if the looping selector is open; otherwise, <see
+            langword="false"/>.
+            </value>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.LoopingSelector.IsExpandedChanged">
+            <summary>
+            Occurs when the <see
+            cref="P:Syncfusion.UI.Xaml.Controls.LoopingSelector.IsExpanded"/> is changed.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Primitives.HierarchicalDataTemplate">
+            <summary>
+            Represents a <see cref="T:System.Windows.DataTemplate" /> that supports
+            <see cref="T:System.Windows.Controls.HeaderedItemsControl" /> objects,
+            such as <see cref="T:System.Windows.Controls.TreeViewItem" />.
+            </summary>
+            <QualityBand>Stable</QualityBand>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Primitives.HierarchicalDataTemplate._itemTemplate">
+            <summary>
+            The DataTemplate to apply to the ItemTemplate property on a
+            generated HeaderedItemsControl (such as a MenuItem or a
+            TreeViewItem), to indicate how to display items from the next level
+            in the data hierarchy.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Primitives.HierarchicalDataTemplate._itemContainerStyle">
+            <summary>
+            The Style to apply to the ItemContainerStyle property on a generated
+            HeaderedItemsControl (such as a MenuItem or a TreeViewItem), to
+            indicate how to style items from the next level in the data
+            hierarchy.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.HierarchicalDataTemplate.#ctor">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:WinRTXamlToolkit.Controls.Data.HierarchicalDataTemplate" /> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.HierarchicalDataTemplate.IsItemTemplateSet">
+            <summary>
+            Gets a value indicating whether the ItemTemplate property was set on
+            the template.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.HierarchicalDataTemplate.ItemTemplate">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.DataTemplate" /> to
+            apply to the
+            <see cref="P:System.Windows.Controls.ItemsControl.ItemTemplate" />
+            property on a generated
+            <see cref="T:System.Windows.Controls.HeaderedItemsControl" />, such
+            as a <see cref="T:System.Windows.Controls.TreeViewItem" />, to
+            indicate how to display items from the next sublevel in the data
+            hierarchy.
+            </summary>
+            <value>
+            The <see cref="T:System.Windows.DataTemplate" /> to apply to the
+            <see cref="P:System.Windows.Controls.ItemsControl.ItemTemplate" />
+            property on a generated
+            <see cref="T:System.Windows.Controls.HeaderedItemsControl" />, such
+            as a <see cref="T:System.Windows.Controls.TreeViewItem" />, to
+            indicate how to display items from the next sublevel in the data
+            hierarchy.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.HierarchicalDataTemplate.IsItemContainerStyleSet">
+            <summary>
+            Gets a value indicating whether the ItemContainerStyle property was
+            set on the template.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.HierarchicalDataTemplate.ItemContainerStyle">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Style" /> that is
+            applied to the item container for each child item.
+            </summary>
+            <value>
+            The style that is applied to the item container for each child item.
+            </value>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Primitives.LinearClipper">
+            <summary>
+            Clips the content of the control in a given direction.
+            </summary>
+            <QualityBand>Preview</QualityBand>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Primitives.LinearClipper.ExpandDirectionProperty">
+            <summary>
+            Identifies the ExpandDirection dependency property.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.LinearClipper.ClipContent">
+            <summary>
+            Updates the clip geometry.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.LinearClipper.OnExpandDirectionChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            ExpandDirectionProperty property changed handler.
+            </summary>
+            <param name="d">ExpandDirectionView that changed its ExpandDirection.</param>
+            <param name="e">Event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.LinearClipper.OnExpandDirectionChanged(Syncfusion.UI.Xaml.Primitives.ExpandDirection,Syncfusion.UI.Xaml.Primitives.ExpandDirection)">
+            <summary>
+            ExpandDirectionProperty property changed handler.
+            </summary>
+            <param name="oldValue">Old value.</param>
+            <param name="newValue">New value.</param>        
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Primitives.LinearClipper.ExpandDirection">
+            <summary>
+            Gets or sets the clipped edge.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Primitives.ExpandDirection.Down">
+            <summary>
+            Specifies that the <see cref="T:System.Windows.Controls.Expander" />
+            control opens in the down direction.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Primitives.ExpandDirection.Up">
+            <summary>
+            Specifies that the <see cref="T:System.Windows.Controls.Expander" />
+            control opens in the up direction.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Primitives.ExpandDirection.Left">
+            <summary>
+            Specifies that the <see cref="T:System.Windows.Controls.Expander" />
+            control opens in the left direction.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Primitives.ExpandDirection.Right">
+            <summary>
+            Specifies that the <see cref="T:System.Windows.Controls.Expander" />
+            control opens in the right direction.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.LoopingSelectorItem">
+            <summary>
+             LoopingSelectorItem is a <see
+            cref="N:Windows.UI.Xaml.Controls.ContentControl"/>. It is a selectable item
+            inside the <see cref="T:Syncfusion.UI.Xaml.Controls.LoopingSelector"/>.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.LoopingSelectorItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.LoopingSelectorItem"/> class.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.LoopingSelectorItem.Click">
+            <summary>
+            The Click event. This is needed because there is no gesture for touch-down, pause 
+            longer than the Hold time, and touch-up. Tap will not be raise, and Hold is not 
+            adequate.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.LoopingSelectorItem.AccentBrush">
+            <summary>
+            Gets or sets the brush that is applied as the background of the item.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.LoopingSelectorItem.State.Normal">
+            <summary>
+            Not visible
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.LoopingSelectorItem.State.Expanded">
+            <summary>
+            Visible
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.LoopingSelectorItem.State.Selected">
+            <summary>
+            Selected
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.SafeRaise.Raise(System.EventHandler,System.Object)">
+            <summary>
+            Raises an event in a thread-safe manner, also does the null check.
+            </summary>
+            <param name="eventToRaise">The event to raise.</param>
+            <param name="sender">The event sender.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.SafeRaise.Raise(System.EventHandler{System.EventArgs},System.Object)">
+            <summary>
+            Raises an event in a thread-safe manner, also does the null check.
+            </summary>
+            <param name="eventToRaise">The event to raise.</param>
+            <param name="sender">The event sender.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.SafeRaise.Raise``1(System.EventHandler{``0},System.Object,``0)">
+            <summary>
+            Raises an event in a thread-safe manner, also does the null check.
+            </summary>
+            <typeparam name="T">The event args type.</typeparam>
+            <param name="eventToRaise">The event to raise.</param>
+            <param name="sender">The event sender.</param>
+            <param name="args">The event args.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.SafeRaise.Raise``1(System.EventHandler{``0},System.Object,Syncfusion.UI.Xaml.Primitives.SafeRaise.GetEventArgs{``0})">
+            <summary>
+            Raise an event in a thread-safe manner, with the required null check. Lazily creates event args.
+            </summary>
+            <typeparam name="T">The event args type.</typeparam>
+            <param name="eventToRaise">The event to raise.</param>
+            <param name="sender">The event sender.</param>
+            <param name="getEventArgs">The delegate to return the event args if needed.</param>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Primitives.SafeRaise.GetEventArgs`1">
+            <summary>
+            This is a method that returns event args, used for lazy creation.
+            </summary>
+            <typeparam name="T">The event type.</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.Selector.OnSelectedItemChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the Selector SelectedItem Property changed.
+            </summary>
+            <param name="obj">The obj.</param>
+            <param name="args">The <see cref="!:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.Selector.OnSelectedItemChanged(Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the Selector SelectedItem Property changed.
+            </summary>
+            <param name="args">The <see cref="!:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.Selector.OnSelectionChanged(Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the Selector SelectedItem Property changed.
+            </summary>
+            <param name="args">The <see cref="!:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.Selector.OnSelectedIndexChanged(Windows.UI.Xaml.DependencyObject,Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the Selector SelectedIndex Property changed.
+            </summary>
+            <param name="obj">The obj.</param>
+            <param name="args">The <see cref="!:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Primitives.Selector.OnSelectedIndexChanged(Windows.UI.Xaml.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when the Selector SelectedIndex Property changed.
+            </summary>
+            <param name="args">The <see cref="!:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.TransitionContentControl">
+             <summary>
+            TransitionContentControl is a <see
+             cref="N:Windows.UI.Xaml.Controls.ContentControl">ContentControl</see> that contains
+             the implementation for the controls that needs transitions.
+             </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.TransitionContentControl.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.TransitionContentControl"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.TransitionContentControl.Transition">
+            <summary>
+            Gets or sets the transition.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.TransitionContentControl.EnableAnimation">
+            <summary>
+            Gets or sets a value to animate while up/down click.
+            </summary>
+            <value>
+            <c>true</c> if [enable animation]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.FadeTransition">
+            <summary>
+             This Transition creates a fade effect animation that spans its duration. This
+            is done by updating the opacity variable of the node at regular interval.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.FadeTransition.Duration">
+            <summary>
+            Gets or sets the length of time for which this timeline plays, not counting
+            repetitions.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.FadeTransition.Easing">
+            <summary>
+            Gets or sets <see
+            cref="N:Windows.UI.Xaml.Media.EasingFunctionBase">EasingFunctionBase</see> that allow to
+            apply custom mathematical formulas to animations
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.RotateTransition">
+            <summary>
+             his Transition creates a rotation animation that spans its <see
+            cref="P:Syncfusion.UI.Xaml.Controls.RotateTransition.Duration"/>. This is done
+            by updating the rotate variable of the node at regular interval. The angle value
+            is specified in degrees.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.RotateTransition.Duration">
+            <summary>
+            Gets or sets the length of time for which this timeline plays, not counting
+            repetitions.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.RotateTransition.Easing">
+            <summary>
+            Gets or sets <see
+            cref="N:Windows.UI.Xaml.Media.EasingFunctionBase">EasingFunctionBase</see> that allow to
+            apply custom mathematical formulas to animations
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.SlideTransition">
+            <summary>
+             Animating the content one after another in a regular <see
+            cref="P:Syncfusion.UI.Xaml.Controls.SlideTransition.Duration"/>.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.SlideTransition.Direction">
+            <summary>
+            Gets or sets direction of the slide.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.SlideTransition.Duration">
+            <summary>
+            Gets or sets the length of time for which this timeline plays, not counting
+            repetitions.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.SlideTransition.Easing">
+            <summary>
+            Gets or sets <see
+            cref="N:Windows.UI.Xaml.Media.EasingFunctionBase">EasingFunctionBase</see> that allow to
+            apply custom mathematical formulas to animations
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.HsvColor.H">
+            <summary>
+            The Hue in 0..360 range.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.HsvColor.S">
+            <summary>
+            The Saturation in 0..1 range.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.HsvColor.V">
+            <summary>
+            The Value in 0..1 range.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.HsvColor.A">
+            <summary>
+            The Alpha/opacity in 0..1 range.
+            </summary>
+        </member>
+    </members>
+</doc>

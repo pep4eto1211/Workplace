@@ -1,0 +1,163 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Syncfusion.UI.Xaml.Charts">
+
+    <Style x:Key="lineStyle" TargetType="Line">
+        <Setter Property="Stroke" Value="{StaticResource ApplicationForegroundThemeBrush}"></Setter>
+        <Setter Property="StrokeThickness" Value="1"></Setter>
+    </Style>
+
+    <Style x:Key="gridLineStyle" TargetType="Line">
+        <Setter Property="Stroke" Value="{StaticResource AppBarItemPointerOverBackgroundThemeBrush}"></Setter>
+        <Setter Property="StrokeThickness" Value="1"></Setter>
+    </Style>
+
+    <DataTemplate x:Key="axisTrackBallLabel">
+        <Border BorderThickness="1" BorderBrush="{StaticResource ButtonBorderThemeBrush}" Background="{StaticResource ButtonPressedBackgroundThemeBrush}">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Margin="6,6,6,0" Text="{Binding ValueX}" Foreground="{StaticResource ButtonPressedForegroundThemeBrush }"></TextBlock>
+                <TextBlock Margin="6,0,6,6" Text="{Binding ValueY}" Foreground="{StaticResource ButtonPressedForegroundThemeBrush }"></TextBlock>
+            </StackPanel>
+        </Border>
+    </DataTemplate>
+    
+    <Style TargetType="local:ChartAxis">
+        <Setter Property="MajorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MinorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MajorGridLineStyle" Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="MinorGridLineStyle"  Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="AxisLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="TrackBallLabelTemplate" Value="{StaticResource axisTrackBallLabel}"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource ApplicationForegroundThemeBrush}"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:ChartAxis">
+                    <Border Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <local:ChartCartesianAxisPanel x:Name="axisPanel">
+                            <ContentControl x:Name="headerContent" Content="{TemplateBinding Header}" ContentTemplate="{TemplateBinding HeaderTemplate}" RenderTransformOrigin="0.5,0.5"></ContentControl>
+                            <Canvas x:Name="axisLabelsPanel"></Canvas>
+                            <Canvas x:Name="axisElementPanel"></Canvas>
+                        </local:ChartCartesianAxisPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="local:CategoryAxis">
+        <Setter Property="MajorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MinorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MajorGridLineStyle" Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="MinorGridLineStyle"  Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="AxisLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="TrackBallLabelTemplate" Value="{StaticResource axisTrackBallLabel}"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource ApplicationForegroundThemeBrush}"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:CategoryAxis">
+                    <Border Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <local:ChartCartesianAxisPanel x:Name="axisPanel">
+                            <ContentControl x:Name="headerContent" Content="{TemplateBinding Header}" ContentTemplate="{TemplateBinding HeaderTemplate}" RenderTransformOrigin="0.5,0.5"></ContentControl>
+                            <Canvas x:Name="axisLabelsPanel"></Canvas>
+                            <Canvas x:Name="axisElementPanel"></Canvas>
+                        </local:ChartCartesianAxisPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="local:NumericalAxis">
+        <Setter Property="MajorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MinorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MajorGridLineStyle" Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="MinorGridLineStyle"  Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="AxisLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="TrackBallLabelTemplate" Value="{StaticResource axisTrackBallLabel}"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource ApplicationForegroundThemeBrush}"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:NumericalAxis">
+                    <Border Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <local:ChartCartesianAxisPanel x:Name="axisPanel">
+                            <ContentControl x:Name="headerContent" Content="{TemplateBinding Header}" ContentTemplate="{TemplateBinding HeaderTemplate}" RenderTransformOrigin="0.5,0.5"></ContentControl>
+                            <Canvas x:Name="axisLabelsPanel"></Canvas>
+                            <Canvas x:Name="axisElementPanel"></Canvas>
+                        </local:ChartCartesianAxisPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="local:DateTimeAxis">
+        <Setter Property="MajorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MinorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MajorGridLineStyle" Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="MinorGridLineStyle"  Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="AxisLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="TrackBallLabelTemplate" Value="{StaticResource axisTrackBallLabel}"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource ApplicationForegroundThemeBrush}"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:DateTimeAxis">
+                    <Border Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <local:ChartCartesianAxisPanel x:Name="axisPanel">
+                            <ContentControl x:Name="headerContent" Content="{TemplateBinding Header}" ContentTemplate="{TemplateBinding HeaderTemplate}" RenderTransformOrigin="0.5,0.5"></ContentControl>
+                            <Canvas x:Name="axisLabelsPanel"></Canvas>
+                            <Canvas x:Name="axisElementPanel"></Canvas>
+                        </local:ChartCartesianAxisPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="local:LogarithmicAxis">
+        <Setter Property="MajorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MinorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MajorGridLineStyle" Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="MinorGridLineStyle"  Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="AxisLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="TrackBallLabelTemplate" Value="{StaticResource axisTrackBallLabel}"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource ApplicationForegroundThemeBrush}"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:LogarithmicAxis">
+                    <Border Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <local:ChartCartesianAxisPanel x:Name="axisPanel">
+                            <ContentControl x:Name="headerContent" Content="{TemplateBinding Header}" ContentTemplate="{TemplateBinding HeaderTemplate}" RenderTransformOrigin="0.5,0.5"></ContentControl>
+                            <Canvas x:Name="axisLabelsPanel"></Canvas>
+                            <Canvas x:Name="axisElementPanel"></Canvas>
+                        </local:ChartCartesianAxisPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="local:TimeSpanAxis">
+        <Setter Property="MajorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MinorTickLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="MajorGridLineStyle" Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="MinorGridLineStyle"  Value="{StaticResource gridLineStyle}"></Setter>
+        <Setter Property="AxisLineStyle" Value="{StaticResource lineStyle}"></Setter>
+        <Setter Property="TrackBallLabelTemplate" Value="{StaticResource axisTrackBallLabel}"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource ApplicationForegroundThemeBrush}"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:TimeSpanAxis">
+                    <Border Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <local:ChartCartesianAxisPanel x:Name="axisPanel">
+                            <ContentControl x:Name="headerContent" Content="{TemplateBinding Header}" ContentTemplate="{TemplateBinding HeaderTemplate}" RenderTransformOrigin="0.5,0.5"></ContentControl>
+                            <Canvas x:Name="axisLabelsPanel"></Canvas>
+                            <Canvas x:Name="axisElementPanel"></Canvas>
+                        </local:ChartCartesianAxisPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
+

@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfRadialMenu.WinRT</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenuItem">
+            <summary>
+            <para>Represents a selectable RadialMenuItem inside a <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu"/> that are associated
+            with the commands.</para>
+            </summary>
+            <remarks>
+            RadialMenuItem is a <see
+            cref="T:Syncfusion.UI.Xaml.Primitives.HeaderedItemsControl"/>.
+            </remarks>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu"/>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenuItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenuItem.Icon">
+            <summary>
+            Gets or sets the icon that appears in a RadialMenuItem
+            </summary>
+            <value>
+            The default value is <see cref="N:Windows.UI.Xaml.Media.ImageSource"/>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenuItem.IsChecked">
+            <summary>
+            Gets or sets whether the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem"/> is checked.
+            </summary>
+            <remarks>
+            Used to define the Item as checked.
+            </remarks>
+            <value>
+            <c>true</c> if this instance is checked; otherwise, <c>false</c>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem.IsCheckable"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenuItem.Command">
+            <summary>
+            Gets the command that will be executed when the command source is invoked.
+            </summary>
+            <remarks>
+            Used to bound to a command, that could performs an action.
+            </remarks>
+            <value>
+            The default value is <see cref="T:Syncfusion.UI.Xaml.Utils.DelegateCommand"/>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem.CommandParameter"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenuItem.CommandParameter">
+            <summary>
+            Represents a user defined data value that can be passed to the <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem.Command"/> when it
+            is executed.
+            </summary>
+            <remarks>
+            Normally, the commandparameter is used to pass specific information to the
+            command when it is executed. The type of the data is defined by the command.
+            </remarks>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenuItem.HasItems">
+            <summary>
+            Gets a value indicating whether <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem"/> has items.
+            </summary>
+            <value>
+            <c>true</c> if this instance has items; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenuItem.Click">
+            <summary>
+            Occurs when <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem"/> is clicked.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenuItem.Checked">
+            <summary>
+            Occurs when the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem"/> is checked.
+            </summary>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem.IsChecked"/>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenuItem.UnChecked">
+            <summary>
+            Occurs when the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem"/> is unchecked.
+            </summary>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem.IsChecked"/>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.CircularPanel.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.CircularPanel"/> class.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.IconConverter">
+            <summary>
+            Represents the converter that returns the icon property value of the
+            RadialMenuItem
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem.Icon"/>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.InnerRim.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.InnerRim"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.OuterRim.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.OuterRim"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.OuterRimItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.OuterRimItem"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.OuterRimPanel.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.OuterRimPanel"/> class.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenu">
+            <summary>
+            RadialMenu is a <see cref="N:Windows.UI.Xaml.Controls.ItemsControl"/> that
+            enables you to hierarchically organize elements in circular layout optimized for
+            touch devices. Typically used as a context menu, it can expose more menu items
+            in the same space than traditional menus.
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem"/>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenu.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu"/> class.
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenuItem"/>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenu.Show">
+            <summary>
+            The method used to show the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu"/>.
+            </summary>
+            <remarks>
+            The Return value is void.
+            </remarks>
+            <seealso cref="M:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu.Close"/>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenu.Close">
+            <summary>
+            The method used to close the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu"/>.
+            </summary>
+            <remarks>
+            The Return value is void.
+            </remarks>
+            <seealso cref="M:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu.Show"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenu.Icon">
+            <summary>
+            Gets or sets the icon that appears in a <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu"/>.
+            </summary>
+            <remarks>
+            Used to customize the icon displayed in the center of RadialMenucircle.
+            </remarks>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenu.RadiusX">
+            <summary>
+            Gets or sets the radius X for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu"/>.
+            </summary>
+            <remarks>
+            Used to define the x radius value of the circle.
+            </remarks>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu.RadiusY"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenu.RadiusY">
+            <summary>
+            Gets or sets the radius Y for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu"/>.
+            </summary>
+            <remarks>
+            Used to define the y radius value of the circle
+            </remarks>
+            <value>
+            The default is zero.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu.RadiusY"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenu.EnableFreeRotation">
+            <summary>
+            Gets or sets a value indicating whether enable free rotation when the mouse is
+            rotated.
+            </summary>
+            <value>
+            <c>true</c> if enable free rotation; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenu.DrillDownItem">
+            <summary>
+            Gets or sets the drill down item.
+            </summary>
+            <value>
+            The default value is <see cref="N:Windows.UI.Xaml.Controls.ItemsControl"/>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenu.StrokeThickness">
+            <summary>
+            Gets or sets the width of the radial menu stroke outline with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Navigation.RadialMenu"/>.
+            </summary>
+            <remarks>
+            Used to set the circle stroke thickness.
+            </remarks>
+            <value>
+            The default value is 25.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Navigation.SfRadialMenu.IsOpen">
+            <summary>
+            Gets or sets a value indicating whether this instance is open.
+            </summary>
+            <value>
+            <c>true</c> if this instance is open; otherwise, <c>false</c>.
+            </value>
+        </member>
+    </members>
+</doc>

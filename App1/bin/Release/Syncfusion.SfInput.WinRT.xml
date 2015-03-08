@@ -1,0 +1,2041 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfInput.WinRT</name>
+    </assembly>
+    <members>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfCalendar.GetContainerFromDateTime(System.DateTime)">
+            <summary>
+            Used to get the visual container for the corresponding DateTime object.
+            </summary>
+            <param name="dateTime">The DateTime for which the container to get.</param>
+            <returns>CalendarDayButton, the container.</returns>
+            <remarks></remarks>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SfDatePicker">
+            <summary>
+            Represents a control that allows the user to select a date by using a drop-down
+            <see cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/> control.
+            </summary>
+            <remarks>
+            <para></para>
+            </remarks>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfDatePicker.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/> class.
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>
+            <seealso
+            cref="N:Syncfusion.UI.Xaml.Controls.Input">Syncfusion.UI.Xaml.Controls.Input
+            Namespace</seealso>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDatePicker.Value">
+            <summary>
+            Gets or sets the value of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/> that hold the currently
+            selected date.
+            </summary>
+            <value>
+            The default value is <see cref="P:System.DateTime.Now">DateTime.Now</see>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DatePicker.SetValueOnLostFocus"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDatePicker.IsDropDownOpen">
+            <summary>
+            Gets or sets a value indicating whether the popup <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/> drop down is open.
+            </summary>
+            <value>
+            <c>true</c> if this instance is drop down open; otherwise, <c>false</c>.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.DatePicker.DropDownHeight"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDatePicker.DropDownHeight">
+            <summary>
+            Gets or sets the height of the drop down for the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>.
+            </summary>
+            <value>
+            The default value is is zero.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.DatePicker.IsDropDownOpen"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDatePicker.SelectorStyle">
+            <summary>
+            Gets or sets the style that apply for the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>.
+            </summary>
+            <value>
+            The default value is null
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDatePicker.SetValueOnLostFocus">
+            <summary>
+            Gets or sets a value indicating whether set <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DatePicker.Value"/> on lost focus.
+            </summary>
+            <value>
+            <c>true</c> if set value on lost focus; otherwise, <c>false</c>.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.DatePicker.Value"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDatePicker.AccentBrush">
+            <summary>
+            Gets or sets the background for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>.
+            </summary>
+            <value>ba
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDatePicker.FormatString">
+            <summary>
+            Gets or sets the data that is used as a format for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfDatePicker.ValueChanged">
+            <summary>
+            Occurs when the value for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/> changed.
+            </summary>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.DatePicker.Value"/>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector">
+            <summary>
+            Represents a selectable object inside the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>.
+            </summary>
+            <remarks>
+            DateSelector is a <see
+            cref="N:Windows.UI.Xaml.Controls.Control">Control</see>
+            </remarks>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>.
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.HeaderStyle">
+            <summary>
+            Gets or sets the style of the header of the data control field.
+            </summary>
+            <remarks>
+            The HeaderStyle property governs the appearance of any text displayed in the
+            header item
+            </remarks>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.HeaderTemplate">
+            <summary>
+            Gets or sets the datatemplate used to display the content of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/> header.
+            </summary>
+            <remarks>
+            Use the HeaderTemplate property to specify the custom content displayed for the
+            header section of a date selector object
+            </remarks>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.Header"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.HeaderStyle"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.SelectorStyle">
+            <summary>
+            Gets or sets the style that apply for the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.LoopingSelector"/>.
+            </summary>
+            <remarks>
+            Use to apply the style to the looping selector inside the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>.
+            </remarks>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.LoopingSelectorItem"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.SelectedDateTime">
+            <summary>
+            Gets or sets the currently selected date for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>.
+            </summary>
+            <remarks>
+            Use to hold the currently selected date value.
+            </remarks>
+            <value>
+            The default value is <see cref="P:System.DateTime.Now">DateTime.Now</see>.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.ShowDoneButton">
+            <summary>
+            Gets or sets a value indicating whether show or hide the done button.
+            </summary>
+            <remarks>
+            The default value is true.
+            </remarks>
+            <value>
+            <c>true</c> the done button is show; otherwise done button not showing, <c>false</c>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.ShowCancelButton"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.ShowCancelButton">
+            <summary>
+            Gets or sets a value indicating whether show or hide the cancel button .
+            </summary>
+            <remarks>
+            The default value is true.
+            </remarks>
+            <value>
+            <c>true</c> the cancel button is show; otherwise,cancel button not showing <c>false</c>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.ShowDoneButton"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.AccentBrush">
+            <summary>
+            Gets or sets the background for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.DayCellTemplate">
+            <summary>
+            Gets or sets the template for day looping selector.
+            </summary>
+            <remarks>
+            Use as the datatemplate for the day looping selector. The default value is null.
+            </remarks>
+            <value>
+            The datatemplate of the day.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.MonthCellTemplate"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.YearCellTemplate"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.MonthCellTemplate">
+            <summary>
+            Gets or sets the template for month looping selector.
+            </summary>
+            <remarks>
+            Use as the datatemplate for the month looping selector. The default value is
+            null.
+            </remarks>
+            <value>
+            The datatemplate of the month.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.DayCellTemplate"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.YearCellTemplate"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.YearCellTemplate">
+            <summary>
+            Gets or sets the template for year looping selector.
+            </summary>
+            <remarks>
+            Use as the datatemplate for the year looping selector. The default value is
+            null.
+            </remarks>
+            <value>
+            The datatemplate of the year.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.MonthCellTemplate"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.DayCellTemplate"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.Header">
+            <summary>
+            Gets or sets the data used for the header of <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DateSelector"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.HeaderStyle"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.HeaderTemplate"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.DatePicker"/>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.Cancel">
+            <summary>
+            Occurs when cancel button is clicked.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.Done">
+            <summary>
+            Occurs when done is clicked.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfDateSelector.SelectedDateTimeChanged">
+            <summary>
+            Occurs when selected date changed.
+            </summary>
+            <remarks>
+            raised when selected date property is changed.
+            </remarks>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DateSelector.SelectedDateTime"/>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown">
+            <summary>
+            <see cref="T:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown"/> control is a pair
+            of spin buttons by clicking the up and down buttons the user can scroll and
+            select the data.
+            </summary>
+            <remarks>
+            DomainUpDown is a control
+            </remarks>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.Decrement">
+            <summary>
+            Decrements the associated performance counter by one and stores the result, as
+            an atomic operation.
+            </summary>
+            <remarks>
+            Returns void
+            </remarks>
+            <seealso cref="M:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown.Increment"/>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.Increment">
+            <summary>
+            Increments the associated performance counter by one and stores the result, as
+            an atomic operation.
+            </summary>
+            <remarks>
+            Returns void
+            </remarks>
+            <seealso cref="M:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown.Decrement"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.ContentTransition">
+            <summary>
+            Gets or sets the collection of transitions that apply to the content area of
+            <see cref="T:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown"/>.
+            </summary>
+            <value>
+            <see cref="N:Windows.UI.Xaml.Media.Animation.">Transition</see>.
+            </value>
+            <seealso cref="N:Windows.UI.Xaml.Media.Animation.TransitionCollection"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.Value">
+            <summary>
+            Gets or sets the current value for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown"/>.
+            </summary>
+            <remarks>
+            The Default value is null.
+            </remarks>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.AutoReverse">
+            <summary>
+            Gets or sets a value indicating whether the values can be auto reversed.
+            </summary>
+            <value>
+            <c>true</c> if items can be return to initial, once reached maximum; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.EnableSpinAnimation">
+            <summary>
+            Gets or sets a value indicating whether <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown"/> can animate on
+            increment/decrement items.
+            </summary>
+            <value>
+            <c>true</c> if animation be run on increment/decrement items; otherwise, <c>false</c>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown.SpinButtonsAlignment"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown.UpDownStyle"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.SpinButtonsAlignment">
+            <summary>
+            Gets or sets the spin buttons alignment.
+            </summary>
+            <value>
+            The default value is <see
+            cref="T:Syncfusion.UI.Xaml.Controls.SpinButtonsAlignment"/>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown.EnableSpinAnimation"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown.UpDownStyle"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.UpDownStyle">
+            <summary>
+            Gets or sets the style for updown buttons.
+            </summary>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown.EnableSpinAnimation"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown.SpinButtonsAlignment"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.AccentBrush">
+            <summary>
+            Gets or sets the background for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown"/>.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.ItemsSource">
+            <summary>
+            Gets or sets a collection used to generate the content of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.ContentTemplate">
+            <summary>
+            Gets or sets the data template used to display the content for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown"/>
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.CurrentIndex">
+            <summary>
+            Gets or sets the zero-based index of the currently selected item in a <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown"/>.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfDomainUpDown.ValueChanged">
+            <summary>
+            Occurs when current <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.DomainUpDown.Value"/> changed.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.DecimalSeparatorCollection">
+            <summary>
+             Contains collection of symbols which can be used as NumberDecimalSeparator or
+            NegativeSign
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.DecimalSeparatorCollection.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.DecimalSeparatorCollection"/> class.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SfNumericTextBox">
+            <summary>
+            Represents a <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt"/> control. The
+            NumericTextBox control allows the user to enter only numeric values in an
+            application. This control has additional functionality that is not found in the
+            standard Windows 8 text box control, including Watermark support.
+            </summary>
+            <remarks>
+            The NumericTextBox is inherited from <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt"/> control.
+            </remarks>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt">
+            <summary>
+            Represents a Windows 8 extended textbox. The TextBoxExt control allows the user
+            to enter text in an application. This control has additional functionality that
+            is not found in the standard Windows 8 text box control, including Watermark
+            support and AutoComplete.
+            </summary>
+            <remarks>
+            The TextBoxExt is inherited from <see
+            cref="N:Windows.UI.Xaml.Controls.TextBox">TextBox</see>.
+            </remarks>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.FilterSuggestions">
+            <summary>
+            Filters the <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/> based the
+            text.
+            </summary>
+            <remarks>
+            The Return value is void.
+            </remarks>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.AutoCompleteSource">
+            <summary>
+            Gets or sets an IEnumerable source used to generate the content of the
+            AutoComplete
+            </summary>
+            <remarks>
+            The default value is null.
+            </remarks>
+            <value>
+            The auto complete source.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.AutoCompleteItemTemplate">
+            <summary>
+            Gets or sets the <see cref="N:Windows.UI.Xaml.Controls.DataTemplate"/> that is
+            used to display the content of the suggestion items with auto complete.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.AutoCompleteItemsPanel"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.AutoCompleteItemTemplateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.AutoCompleteItemTemplateSelector">
+            <summary>
+            Gets or sets a selection object that changes the DataTemplate to apply for 
+            content, based on processing information about the content item or its
+            container at run time.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.AutoCompleteItemsPanel">
+            <summary>
+            Gets or sets <see cref="N:Windows.UI.Xaml.Controls.ItemsPanelTemplate"/> that
+            defines the panel to use for the layout of the items.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.AutoCompleteItemTemplate"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.IsSuggestionOpen">
+            <summary>
+            Gets or sets a value indicating whether this instance is <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.SuggestionBox"/> open.
+            </summary>
+            <value>
+            <c>true</c> if this instance is suggestion open; otherwise, <c>false</c>. The default value is false.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxStyle"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPlacement"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPosition"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionIndex"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionMode"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.SuggestionBoxPosition">
+            <summary>
+            Gets the <see cref="N:Windows.Foundation.Point">Point</see> that position the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.SuggestionBox"/>.
+            </summary>
+            <value>
+            The default values is null.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxStyle"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPlacement"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionIndex"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionMode"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.IsSuggestionOpen"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.SearchItemPath">
+            <summary>
+            Gets or sets the search item path is used to search the <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxStyle"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPlacement"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPosition"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionIndex"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionMode"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.IsSuggestionOpen"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.Suggestions">
+            <summary>
+            Gets the list of suggestions associated with <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionMode"/>.
+            </summary>
+            <value>
+            The suggestions.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxStyle"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPlacement"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPosition"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionIndex"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionMode"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.IsSuggestionOpen"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.SuggestionIndex">
+            <summary>
+            Gets the index of the suggestion.
+            </summary>
+            <value>
+            The default values is 0.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxStyle"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPlacement"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPosition"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionMode"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.IsSuggestionOpen"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.AutoCompleteMode">
+            <summary>
+            Gets or sets <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.AutoCompleteMode"/> that
+            display the <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/> in several
+            ways.
+            </summary>
+            <value>
+            The default value is <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.AutoCompleteMode.None">AutoCompleteMode.None</see>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.SuggestionBoxPlacement">
+            <summary>
+            Gets or sets the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.SuggestionBoxPlacement"/> to display
+            the <see cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/>.
+            </summary>
+            <value>
+            The default value is <see
+            cref="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionBoxPlacement.Bottom">SuggestionBoxPlacement.Bottom</see>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxStyle"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPosition"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionIndex"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionMode"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.IsSuggestionOpen"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.SuggestionMode">
+            <summary>
+            Gets or sets the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode"/> to filter the <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/>
+            </summary>
+            <value>
+            The suggestion mode.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxStyle"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPlacement"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPosition"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionIndex"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.IsSuggestionOpen"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.IgnoreCase">
+            <summary>
+            Gets or sets a value indicating whether to consider the lower or upper case
+            letters for suggestions.
+            </summary>
+            <remarks>
+            The default value is false.
+            </remarks>
+            <value>
+            <c>true</c> if suggestions are displayed by typed letter case ; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.MaxDropDownHeight">
+            <summary>
+            Gets or sets the height of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.SuggestionBox"/>.
+            </summary>
+            <value>
+            The default values is 200.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.SuggestionBoxStyle">
+            <summary>
+            Gets or sets the style with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.SuggestionBox"/>.
+            </summary>
+            <value>
+            The default values is null.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPlacement"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionBoxPosition"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionIndex"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.SuggestionMode"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.IsSuggestionOpen"/>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.SuggestionsChanged">
+            <summary>
+            Occurs when <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/> changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.SuggestionPopupOpened">
+            <summary>
+            Occurs when suggestion box popup is opened.
+            </summary>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.IsSuggestionOpen"/>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.SuggestionPopupClosed">
+            <summary>
+            Occurs when suggestion box popup is closed.
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.IsSuggestionOpen"/>
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.Watermark">
+            <summary>
+            Gets or sets the content displayed as a watermark in the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt"/> when it is empty.
+            </summary>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.WatermarkTemplate"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.WatermarkTemplateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.WatermarkTemplate">
+            <summary>
+            <para>Gets or sets the <see cref="N:Windows.UI.Xaml.DataTemplate"/>
+            used to display the <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Watermark"/> of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt"/>.</para>
+            </summary>
+            <value>
+            The Default value is null. 
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Watermark"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.WatermarkTemplateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTextBoxExt.WatermarkTemplateSelector">
+            <summary>
+            Provides a way to choose a <see
+            cref="N:Windows.UI.Xaml.Controls.DataTemplateSelector"/> based on
+            the data object and the data-bound <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Watermark"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.WatermarkTemplate"/>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfNumericTextBox.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericTextBox"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericTextBox.Value">
+            <summary>
+            Gets or sets the current value.
+            </summary>
+            <value>
+            The default value is the zero.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericTextBox.FormatString">
+            <summary>
+            Gets or sets the data that is used as a format for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericTextBox"/>.
+            </summary>
+            <value>
+            The format string.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericTextBox.Culture">
+            <summary>
+            Gets or sets the culture information associated with the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericTextBox"/>.
+            </summary>
+            <value>
+            The Default value is <see cref="T:System.Globalization.CultureInfo"/>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericTextBox.MaximumNumberDecimalDigits">
+            <summary>
+            Gets or Sets the number of decimal digits associated with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericTextBox"/>
+            </summary>
+            <value>
+            The Default value is <see cref="F:System.Int32.MaxValue">Int32.MaxValue</see>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericTextBox.AllowNull">
+            <summary>
+            Gets or sets a value indicating whether the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericTextBox"/> allow null values.
+            </summary>
+            <value>
+            <see langword="true"/> if allow null value; otherwise, <see langword="false"/>.
+            </value>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfNumericTextBox.ValueChanged">
+            <summary>
+            Occurs when current <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericTextBox.Value"/> is changed.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown">
+            <summary>
+            <see cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/> control is a
+            pair of spin buttons that the user can click to increment or decrement a
+            values<font color="#000000">.</font>
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.DecrementValue(System.Double)">
+            <summary>
+            This method calls when the decrement button is clicked and Decrements the value.
+            </summary>
+            <param name="change">The change.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.IncrementValue(System.Double)">
+            <summary>
+            This method calls when the increment button is clicked and Increments the value.
+            </summary>
+            <param name="change">The change.</param>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.Increment">
+            <summary>
+            Increments the associated performance counter by one and stores the result, as
+            an atomic operation.
+            </summary>
+            <remarks>
+            Returns void
+            </remarks>
+            <seealso cref="M:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.Decrement"/>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.Decrement">
+            <summary>
+            Decrements the associated performance counter by one and stores the result, as
+            an atomic operation.
+            </summary>
+            <remarks>
+            Returns void
+            </remarks>
+            <seealso cref="M:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.Increment"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.Value">
+            <summary>
+            Gets or sets the current value for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/>.
+            </summary>
+            <remarks>
+            The Default value is null.
+            </remarks>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.Watermark">
+            <summary>
+            Gets or sets the content displayed as a watermark in the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/> when it is empty.
+            </summary>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.WatermarkTemplate"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.WatermarkTemplateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.WatermarkTemplate">
+            <summary>
+            <para>Gets or sets the <see cref="N:Windows.UI.Xaml.DataTemplate"/>
+            used to display the <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.Watermark"/> of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/>.</para>
+            </summary>
+            <value>
+            The Default value is null.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.Watermark"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.WatermarkTemplateSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.WatermarkTemplateSelector">
+            <summary>
+            Provides a way to choose a <see
+            cref="N:Windows.UI.Xaml.Controls.DataTemplateSelector"/> based on
+            the data object and the data-bound <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.Watermark"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.WatermarkTemplate"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.FormatString">
+            <summary>
+            Gets or sets the data that is used as a format for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/>.
+            </summary>
+            <value>
+            The default value is N.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.AllowNull">
+            <summary>
+            Gets or sets a value indicating whether the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/> allow null values.
+            </summary>
+            <value>
+            <see langword="true"/> if allow null values; otherwise, <see langword="false"/>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.Culture">
+            <summary>
+            Gets or sets the culture information associated with the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/>.
+            </summary>
+            <value>
+            The Default value is <see cref="T:System.Globalization.CultureInfo"/>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.MaximumNumberDecimalDigits">
+            <summary>
+            <para>Gets or Sets the number of decimal digits associated with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/></para>
+            </summary>
+            <value>
+            The Default value is <see cref="F:System.Int32.MaxValue">Int32.MaxValue</see>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.Minimum">
+            <summary>
+            Gets or Sets the smallest possible value of <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/>.
+            </summary>
+            <value>
+            The default value is <see cref="F:System.Double.MinValue"/>.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.Maximum"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.Maximum">
+            <summary>
+            Gets or Sets the largest possible value of <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/>.
+            </summary>
+            <value>
+            The default value is <see cref="F:System.Double.MaxValue"/>.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.Minimum"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.SmallChange">
+            <summary>
+            Gets or sets a smallest value to be added to or subtracted with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/>.
+            </summary>
+            <value>
+            The default value is 1.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.LargeChange"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.LargeChange">
+            <summary>
+            Gets or sets a largest value to be added to or subtracted with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/>.
+            </summary>
+            <value>
+            The default value is 1.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.SmallChange"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.AutoReverse">
+            <summary>
+            Gets or sets a value indicating whether the values can be auto reversed.
+            </summary>
+            <value>
+            <c>true</c> if items can be return to initial, once reached maximum; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.SpinButtonsAlignment">
+            <summary>
+            Gets or sets the spin buttons alignment.
+            </summary>
+            <value>
+            The default value is <see
+            cref="T:Syncfusion.UI.Xaml.Controls.SpinButtonsAlignment"/>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.EnableSpinAnimation"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.UpDownStyle"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.UpDownStyle">
+            <summary>
+            Gets or sets the style for updown buttons.
+            </summary>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.EnableSpinAnimation"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.SpinButtonsAlignment"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.AccentBrush">
+            <summary>
+            Gets or sets the background for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/>.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.TextAlignment">
+            <summary>
+            Gets or sets the horizontal alignment of the contents of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown"/>.
+            </summary>
+            <value>
+            The default value is <see cref="N:Windows.UI.Xaml.TextAlignment"/>.
+            </value>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.ValueChanged">
+            <summary>
+            Occurs when <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.Value"/> changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.MinimumChanged">
+            <summary>
+            Occurs when <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.Minimum"/> changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.MaximumChanged">
+            <summary>
+            Occurs when <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.Maximum"/> changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.SmallChangeChanged">
+            <summary>
+            Occurs when <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.SmallChange"/> changed.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfNumericUpDown.LargeChangeChanged">
+            <summary>
+            Occurs when <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.NumericUpDown.LargeChange"/>changed.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SfRating">
+            <summary>
+            Rating is a <see cref="N:Windows.UI.Xaml.Controls.ItemsControl">ItemsControl</see> which
+            allows the user to rate the items from the available predefined number of items.
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.RatingItem"/>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfRating.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRating.CornerRadius">
+            <summary>
+            Gets or sets a <see cref="T:Windows.UI.Xaml.CornerRadius"/> that represents the
+            degree to which the corners of a <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.RatingItem">RatingItem&apos;s</see> are
+            rounded.
+            </summary>
+            <value>
+            The corner radius.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.RatingItem"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRating.Precision">
+            <summary>
+            Gets or sets the <see cref="T:Syncfusion.UI.Xaml.Primitives.Precision"/> to rate
+            the items.
+            </summary>
+            <value>
+            The default value is <see
+            cref="F:Syncfusion.UI.Xaml.Primitives.Precision.Standard">Precision.Standard</see>.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.RatingItem"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRating.AutoToolTipPrecision">
+            <summary>
+            Gets or sets the value that determine number of decimal shown in the tool tip
+            <see cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/>.
+            </summary>
+            <value>
+            The default value is 1.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.RatingItem"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRating.PreviewValue">
+            <summary>
+            Gets or sets the value associated with the popup.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.RatingItem"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRating.ShowToolTip">
+            <summary>
+            Gets or sets a value indicating whether show or hide the tool tip.
+            </summary>
+            <value>
+            <c>true</c> the tool tip is shown; otherwise, <c>false</c>. The default value is true.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.RatingItem"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRating.ItemsCount">
+            <summary>
+            Gets or sets value that determines the count of <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.RatingItem"/> with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/> control.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRating.IsReadOnly">
+            <summary>
+            Gets or sets a value indicating whether <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/> is read only.
+            </summary>
+            <value>
+            <c>true</c> if this instance is read only; otherwise, <c>false</c>. The default value is false.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.RatingItem"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRating.Value">
+            <summary>
+            Gets or sets the current value with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/>.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.RatingItem"/>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfRating.ValueChanged">
+            <summary>
+            Occurs when the value changed with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/> control.
+            </summary>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.Rating.Value"/>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem">
+            <summary>
+            Represent a selectable item inside the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/> control.
+            </summary>
+            <remarks>
+            The RatingItem is a <see cref="N:Windows.UI.Xaml.Controls.ConentControl"/>.
+            </remarks>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.RatingItem"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.RatedFill">
+            <summary>
+            Gets or sets the value that fills the rated area with the specified solid color.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.RatedStroke">
+            <summary>
+            Gets or sets the brush that paints the rated area outline with a specified solid
+            color.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.RatedStrokeThickness">
+            <summary>
+            Gets or sets the value that specifies the outline thickness for the rated area.
+            </summary>
+            <value>
+            The default value is 1.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.UnratedFill">
+            <summary>
+            Gets or sets the value that fills the unrated area with the specified solid
+            color.
+            </summary>
+            <value>
+            The default value is <see cref="T:Windows.UI.Colors.Transparent">Colors.Transparent</see>.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.UnratedStroke">
+            <summary>
+            Gets or sets the brush that paints the unrated area outline with a specified
+            solid color.
+            </summary>
+            <value>
+            The default value is <see cref="T:Windows.UI.Colors.Gray">Colors.Gray</see>.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.UnratedStrokeThickness">
+            <summary>
+            Gets or sets the value that specifies the outline thickness for the unrated
+            area.
+            </summary>
+            <value>
+            The default value is 1.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.PointerOverFill">
+            <summary>
+            Gets or sets the value that fills the pointer over area with the specified solid
+            color.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.PointerOverStroke">
+            <summary>
+            Gets or sets the brush that paints the pointer over area outline with a
+            specified solid color.
+            </summary>
+            <value>
+            The default value is <see cref="T:Windows.UI.Colors.Gray">Colors.Gray</see>.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.PointerOverStrokeThickness">
+            <summary>
+            Gets or sets the value that specifies the outline thickness for the pointer over
+            area.
+            </summary>
+            <value>
+            The default value is 1.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.Rating"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.InternalPrecision">
+            <summary>
+            Gets or sets the internal precision.
+            </summary>
+            <value>The internal precision.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRatingItem.InternalValue">
+            <summary>
+            Gets or sets the internal value.
+            </summary>
+            <value>The internal value.</value>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider">
+            <summary>
+            RangeSlider is a <see
+            cref="T:Windows.UI.Xaml.Controls.Primitives.RangeBase"/> that lets the user
+            select from a range of values by moving a <see
+            cref="T:Windows.UI.Xaml.Controls.Primitives.Thumb"/> control along a track.
+            </summary>
+            <remarks>
+            Range Slider control allows the user to select the range of value within the
+            specified minimum and maximum limit. The range can be selected by moving the
+            Thumb control along a track.
+            </remarks>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.RangeSlider"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.Orientation">
+            <summary>
+            Gets or sets a value that indicates the dimension for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.RangeSlider"/>.
+            </summary>
+            <value>
+            It will accepts the type is <see
+            cref="N:Windows.UI.Xaml.Controls.Orientation"/>. The default value is <see
+            cref="N:Windows.UI.Xaml.Controls.Orientation.Horizontal">Orientation.Horizontal</see>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.IsDirectionReversed">
+            <summary>
+            Gets or sets the direction of increasing value with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.RangeSlider"/>.
+            </summary>
+            <remarks>
+            The default is false.
+            </remarks>
+            <value>
+            <c>true</c> if this instance is direction reversed; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.ShowRange">
+            <summary>
+            Gets or sets a value indicating whether to show the range between the thumb with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.RangeSlider"/>.
+            </summary>
+            <remarks>
+            The default value is false.
+            </remarks>
+            <value>
+            <c>true</c> it show the range; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.IntermediateRangeStart">
+            <summary>
+            Gets the intermediate <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.RangeStart"/> value.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.RangeStart"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.RangeEnd"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.IntermediateRangeEnd"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.IntermediateRangeEnd">
+            <summary>
+            Gets the intermediate <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.RangeEnd"/> value.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.IntermediateRangeStart"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.RangeStart"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.RangeEnd"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.RangeStart">
+            <summary>
+            Gets or sets the start value of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.RangeSlider"/>.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.RangeEnd"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.IntermediateRangeEnd"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.IntermediateRangeStart"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.RangeEnd">
+            <summary>
+            Gets or sets the end value of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.RangeSlider"/>.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.IntermediateRangeStart"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.RangeStart"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.IntermediateRangeEnd"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.ThumbToolTipPlacement">
+            <summary>
+            Gets or sets the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.ThumbToolTipPlacement"/> mode to place
+            the tool tip with <see cref="T:Syncfusion.UI.Xaml.Controls.Input.RangeSlider"/>.
+            </summary>
+            <value>
+            The default value is  <see
+            cref="F:Syncfusion.UI.Xaml.Controls.Input.ThumbToolTipPlacement.TopLeft">ThumbToolTipPlacement.TopLeft</see>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.ThumbToolTipPrecision"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.ThumbToolTipPrecision">
+            <summary>
+            Gets or set the precision of value to be displayed in the tooltip with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.RangeSlider"/>.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.ThumbToolTipPlacement"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.SnapsTo">
+            <summary>
+            Gets or sets the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.SliderSnapsTo"/> that determines
+            whether the <see cref="T:Syncfusion.UI.Xaml.Controls.Input.RangeSlider"/> snaps
+            to steps or ticks.
+            </summary>
+            <value>
+            The default value is <see
+            cref="F:Syncfusion.UI.Xaml.Controls.Input.SliderSnapsTo.StepValues">SliderSnapsTo.StepValues</see>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.StepFrequency">
+            <summary>
+            Gets or sets the value used to specify the interval between snap points when the
+            <see cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.SnapsTo"/> is set to
+            <see
+            cref="F:Syncfusion.UI.Xaml.Controls.Input.SliderSnapsTo.StepValues">SliderSnapsTo.StepValues</see>.
+            </summary>
+            <value>
+            The default value is 1.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.TickFrequency"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.TickFrequency">
+            <summary>
+            Gets or sets the value is used to define the number of ticks along the track,
+            based on Minimum and Maximum values.
+            </summary>
+            <value>
+            The default value is 1.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.StepFrequency"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.IntermediateValue">
+            <summary>
+            Gets the intermediate value. This works when <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.ShowRange"/> is false.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.IntermediateRangeEnd"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.RangeSlider.IntermediateRangeStart"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.TickPlacement">
+            <summary>
+            Gets or sets the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TickPlacement"/> that determine where
+            to draw tick marks in relation to the track with <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.RangeSlider"/>.
+            </summary>
+            <value>
+            The default value is <see
+            cref="F:Syncfusion.UI.Xaml.Controls.Input.TickPlacement.Inline">TickPlacement.Inline</see>.
+            </value>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfRangeSlider.RangeChanged">
+            <summary>
+            Occurs when RangeStart or RangeEnd gets changed<see
+            cref="P:Syncfusion.UI.Xaml.Controls.Layout.Input"/> is changed.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.TickBar">
+            <summary>
+            Represents a TickBar Control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.TickBar.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TickBar"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.TickBar.Maximum">
+            <summary>
+            Gets or sets the maximum value that is possible for a tick mark.
+            </summary>
+            <value>The maximum.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.TickBar.Minimum">
+            <summary>
+            Gets or sets the minimum value that is possible for a tick mark. 
+            </summary>
+            <value>The minimum.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.TickBar.TickFrequency">
+            <summary>
+            Gets or sets the interval between tick marks. 
+            </summary>
+            <value>The tick frequency.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.TickBar.Fill">
+            <summary>
+            Gets or sets the Brush that is used to draw the tick marks. 
+            </summary>
+            <value>The fill.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.TickBar.Ticks">
+            <summary>
+            Gets or sets the positions of the tick marks. 
+            </summary>
+            <value>The ticks.</value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.TickBar.Orientation">
+            <summary>
+            Gets or sets the tick bar orientation.
+            </summary>
+            <value>The tick bar orientation.</value>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SuggestionBox">
+            <summary>
+             Represent a popup that displayed when the matching <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TextBoxExt.Suggestions"/> found.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SuggestionBox.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.SuggestionBox"/> class.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SfTimePicker">
+            <summary>
+            Represents a control that allows the user to select a time by using a
+            drop-down <see cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/> control
+            </summary>
+            <remarks>
+            <para></para>
+            </remarks>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfTimePicker.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimePicker.Value">
+            <summary>
+            Gets or sets the value of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/> that hold the currently
+            selected time.
+            </summary>
+            <value>
+            The default value is <see cref="P:System.DateTime.Now">DateTime.Now</see>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimePicker.SetValueOnLostFocus"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimePicker.IsDropDownOpen">
+            <summary>
+            Gets or sets a value indicating whether this instance is drop down open.
+            </summary>
+            <value><c>true</c> if this instance is drop down open; otherwise, <c>false</c>.</value>
+            <summary>
+            Gets or sets a value indicating whether the popup <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/> drop down is open.
+            </summary>
+            <value>
+            <c>true</c> if this instance is drop down open; otherwise, <c>false</c>.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TimePicker.DropDownWidth"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TimePicker.DropDownHeight"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimePicker.DropDownHeight">
+            <summary>
+            Gets or sets the height of the drop down for the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>.
+            </summary>
+            <value>
+            The default value is zero.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TimePicker.DropDownWidth"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TimePicker.IsDropDownOpen"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimePicker.FormatString">
+            <summary>
+            Gets or sets the data that is used as a format for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimePicker.SelectorStyle">
+            <summary>
+            Gets or sets the style that apply for the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/>.
+            </summary>
+            <value>
+            The default value is null
+            </value>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimePicker.SetValueOnLostFocus">
+            <summary>
+            Gets or sets a value indicating whether set <see
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimePicker.Value"/> on lost focus.
+            </summary>
+            <value>
+            <c>true</c> if set value on lost focus; otherwise, <c>false</c>.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimePicker.AccentBrush">
+            <summary>
+            Gets or sets the background for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfTimePicker.ValueChanged">
+            <summary>
+            Occurs when the value for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/> changed.
+            </summary>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TimePicker.Value"/>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector">
+            <summary>
+            Represents a selectable object inside the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>.
+            </summary>
+            <remarks>
+            TimeSelector is a <see
+            cref="N:Windows.UI.Xaml.Controls.Control">Control</see>
+            </remarks>
+        </member>
+        <member name="M:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.#ctor">
+            <summary>
+            Initializes a new instance of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/>.
+            </summary>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.SelectedTime">
+            <summary>
+            Gets or sets the currently selected time for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/>.
+            </summary>
+            <remarks>
+            Use to hold the currently selected time value.
+            </remarks>
+            <value>
+            The default value is <see cref="P:System.DateTime.Now">DateTime.Now</see>.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.HeaderStyle">
+            <summary>
+            Gets or sets the style of the header of the time control field.
+            </summary>
+            <remarks>
+            The HeaderStyle property governs the appearance of any text displayed in the
+            header item
+            </remarks>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.HeaderTemplate">
+            <summary>
+            Gets or sets the datatemplate used to display the content of the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/> header.
+            </summary>
+            <remarks>
+            Use the HeaderTemplate property to specify the custom content displayed for the
+            header section of a time selector object
+            </remarks>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.Header"/>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.HeaderStyle"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.SelectorStyle">
+            <summary>
+            Gets or sets the style that apply for the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.LoopingSelector"/>.
+            </summary>
+            <remarks>
+            Use to apply the style to the looping selector inside the <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/>.
+            </remarks>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.LoopingSelectorItem"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.ShowDoneButton">
+            <summary>
+            Gets or sets a value indicating whether show or hide the done button.
+            </summary>
+            <remarks>
+            The default value is true.
+            </remarks>
+            <value>
+            <c>true</c> the done button is show; otherwise done button not showing, <c>false</c>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.ShowCancelButton"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.ShowCancelButton">
+            <summary>
+            Gets or sets a value indicating whether show or hide the cancel button .
+            </summary>
+            <remarks>
+            The default value is true.
+            </remarks>
+            <value>
+            <c>true</c> the cancel button is show; otherwise,cancel button not showing <c>false</c>.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.ShowDoneButton"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.AccentBrush">
+            <summary>
+            Gets or sets the background for <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.MinuteCellTemplate">
+            <summary>
+            Gets or sets the template for minute looping selector.
+            </summary>
+            <remarks>
+            Use as the datatemplate for the Minute looping selector.
+            </remarks>
+            <value>
+            The default value is null.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.HourCellTemplate"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.MeridiemCellTemplate"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.HourCellTemplate">
+            <summary>
+            Gets or sets the template for hour looping selector.
+            </summary>
+            <remarks>
+            Use as the datatemplate for the hour looping selector.
+            </remarks>
+            <value>
+            The default value is null.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.DayCellTemplate"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.MeridiemCellTemplate"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.MeridiemCellTemplate">
+            <summary>
+            Gets or sets the template for day looping selector.
+            </summary>
+            <remarks>
+            Use as the datatemplate for the day looping selector.
+            </remarks>
+            <value>
+            The default value is null.
+            </value>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.HourCellTemplate"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.DayCellTemplate"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+        </member>
+        <member name="P:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.Header">
+            <summary>
+            Gets or sets the data used for the header of <see
+            cref="T:Syncfusion.UI.Xaml.Controls.Input.TimeSelector"/>.
+            </summary>
+            <value>
+            The default value is null.
+            </value>
+            <seealso cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.HeaderStyle"/>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.HeaderTemplate"/>
+            <seealso cref="T:Syncfusion.UI.Xaml.Controls.Input.TimePicker"/>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.SelectedTimeChanged">
+            <summary>
+            Occurs when selected time changed.
+            </summary>
+            <remarks>
+            raised when selected time property is changed.
+            </remarks>
+            <seealso
+            cref="P:Syncfusion.UI.Xaml.Controls.Input.TimeSelector.SelectedTime"/>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.Cancel">
+            <summary>
+            Occurs when cancel button is clicked.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.UI.Xaml.Controls.Input.SfTimeSelector.Select">
+            <summary>
+            Occurs when done is clicked.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.AutoCompleteMode">
+            <summary>
+             Specifies the mode of the auto complete.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.AutoCompleteMode.None">
+            <summary>
+            Suggestion and append are not performed with auto complete.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.AutoCompleteMode.Append">
+            <summary>
+            Perform append only with auto complete.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.AutoCompleteMode.Suggest">
+            <summary>
+            Perform suggestion only with auto complete.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.AutoCompleteMode.SuggestAppend">
+            <summary>
+            Perform suggestions and append with auto complete.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SuggestionBoxPlacement">
+            <summary>
+             Specify the placement of suggestion box with auto complete.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionBoxPlacement.Top">
+            <summary>
+            The SuggestionBox always placed top with auto complete.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionBoxPlacement.Bottom">
+            <summary>
+            The SuggestionBox always at the bottom with auto complete.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionBoxPlacement.None">
+            <summary>
+            The SuggestionBox not displayed with auto complete.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode">
+            <summary>
+             specifies the modes of search with auto complete.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.None">
+            <summary>
+            Returns the all the AutoCompleteSource collection to suggestions
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.StartsWith">
+            <summary>
+            Returns the suggestions whether the beginning of the string matches in the list which is culture sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.StartsWithCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string matches in the list which is culture and case sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.StartsWithOrdinal">
+            <summary>
+            Returns the suggestions whether the beginning of the string matches in the list by using StringComparer.OrdinalIgnoreCase.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.StartsWithOrdinalCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string matches in the list by using StringComparer.Ordinal.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.Contains">
+            <summary>
+            Returns the suggestions whether the beginning of the string contains in the list which is culture sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.ContainsCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string contains in the list which is culture and case sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.ContainsOrdinal">
+            <summary>
+            Returns the suggestions whether the beginning of the string contains in the list by using StringComparer.OrdinalIgnoreCase.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.ContainsOrdinalCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string contains in the list by using StringComparer.Ordinal.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.Equals">
+            <summary>
+            Returns the suggestions whether the beginning of the string equals in the list which is culture sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.EqualsCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string equals in the list which is culture and case sensitive.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.EqualsOrdinal">
+            <summary>
+            Returns the suggestions whether the beginning of the string equals in the list by using StringComparer.OrdinalIgnoreCase.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.EqualsOrdinalCaseSensitive">
+            <summary>
+            Returns the suggestions whether the beginning of the string equals in the list by using StringComparer.Ordinal.  
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SuggestionMode.Custom">
+            <summary>
+            Returns the Suggestion whether the specified object occurs with in the list.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.TickPlacement">
+            <summary>
+            Specifies the Ticks placement with range slider.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.TickPlacement.BottomRight">
+            <summary>
+            The ticks are placed bottom for horizontal orientation and  right for vertical orientation.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.TickPlacement.Inline">
+            <summary>
+            The ticks are placed inside the range slider.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.TickPlacement.None">
+            <summary>
+            The ticks are not showing.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.TickPlacement.Outside">
+            <summary>
+            The ticks are placed both side for  horizontal orientation ticks are in top and bottom and for  vertical orientation ticks are in left and right.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.TickPlacement.TopLeft">
+            <summary>
+            The ticks are placed top for horizontal orientation and  left for vertical orientation.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.SliderSnapsTo">
+            <summary>
+            Specifies the SliderSnapsTo with range slider.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SliderSnapsTo.StepValues">
+            <summary>
+            Conform the indicator to the step values.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.SliderSnapsTo.Ticks">
+            <summary>
+             Conform the indicator to the tick marks.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.UI.Xaml.Controls.Input.ThumbToolTipPlacement">
+            <summary>
+            specifies the Thumb ToolTip placement with range slider.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.ThumbToolTipPlacement.BottomRight">
+            <summary>
+            The tooltip placed bottom for horizontal orientation and  right for vertical orientation.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.ThumbToolTipPlacement.None">
+            <summary>
+            The tooltip is not showing.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.UI.Xaml.Controls.Input.ThumbToolTipPlacement.TopLeft">
+            <summary>
+            The tooltip is placed top for horizontal orientation and  left for vertical orientation.
+            </summary>
+        </member>
+    </members>
+</doc>
